@@ -1,0 +1,76 @@
+\section{ProgC}
+
+    \subsection{Wichtige Kurzbefehle}
+		\begin{tabular}{ll}
+			\verb|cd "Path"| & Pfad anwählen \\
+			\verb|cd ..| & um eine Ebene nach oben (zurück) \\
+			\verb|mkdir "Ordnername"| & Ordner erstellen \\
+			\verb|rmkdir "Ordnername"| & Ordner löschen \\
+			\verb|rm -rf *| & Alles innerhalb vom aktuellen Ordner löschen \\
+			\verb|rm "Datei"| & Datei löschen \\
+			\verb|mv "Name alt" "Name neu"| & Datei umbenennen \\
+			\verb|cp "Datei alt" "Datei neu"| & Datei kopieren und benennen \\
+			\verb|clang -Wall -o "Dateiname" "Dateiname.c"| & clang-Compiler mit Warnungen \\
+			\verb|clang -Wall -o "Dateiname" "Dateiname.c" -lm| & -lm für Mathebibliothek \\
+			\verb|ls| & Listet alle Files im akt. Verzeichnis auf \\
+			\verb|ls -l| & Inkl. Informationen wie Grösse u.a. \\
+			\verb|ls -a| & Inkl. versteckten Dateien \\
+			\verb|ls -al| & Beide Varianten \\
+		\end{tabular}
+
+	\subsection{Zahlensysteme}
+		\begin{tabular}{|l|l|l|l|l|l|l|l|}
+			\hline
+			$2^0$ = 1 & $2^1$ = 2 & $2^2$ = 4 & $2^3$ = 8 & $2^4$ = 16 & $2^5$ = 32 & $2^6$ = 64 & $2^7$ = 128 \\
+			\hline
+		\end{tabular}
+
+		\begin{tabular}{|l|llllll|}
+			\hline
+			Oktal & 3 Bits & $X_8$ & $X_O$ & $X_q$ & $X_oct$ & $0X$ \\
+			\hline
+			Hex & 4 Bits   & $X_16$ & $X_h$ & $XH$ & $X_hex$ & 0xX \\
+			\hline
+		\end{tabular}
+
+		\paragraph{Hexadezimal}
+			\begin{tabular}{llllllllllllllll}
+				0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 \\
+				0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & A & B & C & D & E & F \\
+			\end{tabular}
+			
+		%Todo: ASCI hinzufügen
+	
+	\subsection{Datentypen und Variablen}
+		
+
+	\subsection{Code-Snippets}
+		\subsubsection{Array und Pointer}
+			\begin{lstlisting}[language=C]
+#include <stdio.h>
+
+int main(){
+	enum{array_size = 6};
+	int test[array_size] = {1,2,3,4,5,6};
+	for(int i =0; i<array_size; ++i)
+		printf("Element %u: %i\n", i, test[i]);
+	
+	printf("Groesster: %d", *findAbsMax(test, array_size));
+	return 0;
+}
+			\end{lstlisting}
+			Main-Funktion zum Finden eines \textbf{betragsmässig} grössten Wertes innerhalb eines Arrays.
+
+			\begin{lstlisting}[language=C]
+int* findAbsMax(int* arr, size_t size){
+	int* max_ptr = &arr[0];
+	for(size_t i = 0; i < size; ++i){
+		if((arr[i] >=0 && *max_ptr >=0 && arr[i] > *max_ptr)
+		|| (arr[i] <=0 && *max_ptr <=0 && arr[i] < *max_ptr)
+		|| (arr[i] >=0 && *max_ptr <=0 && arr[i] > *max_ptr * -1)
+		|| (arr[i] <=0 && *max_ptr >=0 && arr[i] * -1 > *max_ptr))
+			max_ptr = &arr[i];
+	}
+	return max_ptr;
+}
+			\end{lstlisting}

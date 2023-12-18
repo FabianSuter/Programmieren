@@ -4,6 +4,8 @@
 
 \usepackage{hyperref}
 
+\usepackage{listings}  %Für Code-Snippets
+
 %---------------------------------------------------------------------------------------
 
 %Layout
@@ -90,22 +92,17 @@
 %--------------------------------------------------------------------------------------
 
 %Informationen für den Befehl maketitle
-\title{Analysis}
+\title{Programmieren}
 \subtitle{Sammlung gegliedert nach Modul}
 \author{Fabian Suter, \today}
-\date{{\small \url{https://github.com/FabianSuter/Analysis.git}}}
+\date{{\small \url{https://github.com/FabianSuter/Programmieren.git}}}
  
 \begin{document}
 
-	\begin{multicols*}{3}
+	\begin{multicols*}{2}
 		\maketitle
 
-		\input{Sections/Analysis_1a.tex}
-			%Sektion aufgeräumt und strukturell eingeschoben
-			%Laut Zgraggen nur 4 Seiten erlaubt, evtl. erst nach Prüfung ausschmücken
-
-		\input{Sections/Analysis_1b.tex} %noch nicht kontrolliert
-
+		\input{Sections/ProgC.tex}
 	
 	\end{multicols*}	
 \end{document}
