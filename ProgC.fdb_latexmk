@@ -1,5 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1702907361 "c:/Users/suter/OneDrive - OST/OST/Formelsammlung/ProgC/ProgC.tex" "ProgC.pdf" "ProgC" 1702907363 0
+["pdflatex"] 1702992053 "c:/Users/suter/OneDrive - OST/OST/Formelsammlung/ProgC/ProgC.tex" "ProgC.pdf" "ProgC" 1702992054 0
+  "Bilder/forschleife.png" 1702991741 62958 240627e902e672719f49bf065dc47486 ""
   "C:/Users/suter/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1699380076 118671 0baee6bb4e3d8f916f4591207a34e899 ""
   "C:/Users/suter/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0800.pk" 1698083003 9292 fb190d30c515815d6315b092fa250e59 ""
   "C:/Users/suter/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1698243540 24175185 ae0ac9a63fe1aa4dc109ed40789cd94d ""
@@ -51,6 +52,7 @@
   "C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb" 1247596666 24457 5cbb7bdf209d5d1ce9892a9b80a307cc ""
   "C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb" 1247596667 24420 52dbb8e8aa0069a1b987309557f8d303 ""
   "C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb" 1247596666 28902 2f5c04fd2884d1878057baa5aad22765 ""
+  "C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1247596667 32587 65067f817f408bc71a7312f3d9828a9b ""
   "C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1247596667 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb" 1247596666 24287 6b803fa9eb1ddff9112e00519b09dd9e ""
   "C:/Users/suter/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -207,10 +209,10 @@
   "C:/Users/suter/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1686255640 32515 51caec75eda9c8890135f12f1a4eddc3 ""
   "C:/Users/suter/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/suter/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "ProgC.aux" 1702907363 3019 dcba2ca3a82bdabb2f4de232659614e1 "pdflatex"
-  "ProgC.out" 1702907363 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "ProgC.aux" 1702992054 6246 6f55830f87712d65dec57a8597b7a4d9 "pdflatex"
+  "ProgC.out" 1702992054 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "ProgC.tex" 1702904926 2838 9494922692fe9b4bb6a7d60d06da2e72 ""
-  "Sections/ProgC.tex" 1702907358 2571 899b43cee6db4313b837bf653bcaf531 ""
+  "Sections/ProgC.tex" 1702992050 5207 e9bfdd9cf3eea6594f78e1aa2a2c08fd ""
   "c:/Users/suter/OneDrive - OST/OST/Formelsammlung/ProgC/ProgC.tex" 1702904926 2838 9494922692fe9b4bb6a7d60d06da2e72 ""
   (generated)
   "ProgC.aux"

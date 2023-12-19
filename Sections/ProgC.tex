@@ -10,8 +10,8 @@
 			\verb|rm "Datei"| & Datei löschen \\
 			\verb|mv "Name alt" "Name neu"| & Datei umbenennen \\
 			\verb|cp "Datei alt" "Datei neu"| & Datei kopieren und benennen \\
-			\verb|clang -Wall -o "Dateiname" "Dateiname.c"| & clang-Compiler mit Warnungen \\
-			\verb|clang -Wall -o "Dateiname" "Dateiname.c" -lm| & -lm für Mathebibliothek \\
+			\verb|clang -Wall -o "Outputname" "Inputdatei"| & clang-Compiler mit Warnungen \\
+			\verb|clang -Wall -o "Outputname" "Inputdatei" -lm| & -lm für Mathebibliothek \\
 			\verb|ls| & Listet alle Files im akt. Verzeichnis auf \\
 			\verb|ls -l| & Inkl. Informationen wie Grösse u.a. \\
 			\verb|ls -a| & Inkl. versteckten Dateien \\
@@ -22,6 +22,20 @@
 		\begin{tabular}{|l|l|l|l|l|l|l|l|}
 			\hline
 			$2^0$ = 1 & $2^1$ = 2 & $2^2$ = 4 & $2^3$ = 8 & $2^4$ = 16 & $2^5$ = 32 & $2^6$ = 64 & $2^7$ = 128 \\
+			\hline
+		\end{tabular}
+
+		\begin{tabular}{|l|l|l|l|}
+			\hline
+			\textbf{Grösse} & \textbf{Abk.} & \textbf{Genauer Wert} & \textbf{Näherung} \\
+			\hline
+			Kilobyte & kB & $2^{10}$ = 1024 Bytes & $10^3$ Bytes \\
+			\hline
+			Megabyte & MB & $2^{20}$ = 1 048 576 Bytes & $10^6$ Bytes \\
+			\hline
+			Gigabyte & GB & $2^{30}$ = 1 073 741 824 Bytes & $10^9$ Bytes \\
+			\hline
+			Terabyte & TB & $2^{40}$ = 1 099 511 627 776 Bytes & $10^12$ Bytes \\ 
 			\hline
 		\end{tabular}
 
@@ -39,10 +53,66 @@
 				0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & A & B & C & D & E & F \\
 			\end{tabular}
 			
-		%Todo: ASCI hinzufügen
+		\paragraph{ASCII (7-Bit)}
+			
+			Ordnet gängigen Schriftzeichen einen Zahlenwert zu, um diese in einem Digitalrechner präsentieren zu können.
+			Die Tabelle ist wichtig, um für geg. Schriftzeichen den repräsentierten Zahlenwert zu ermitteln (und umgekehrt).
+
+			Nachfolger: Unicode (8-, 16-, 32-Bit)
 	
 	\subsection{Datentypen und Variablen}
-		
+			\subsubsection{Datentypen}
+				\begin{tabular}{lll}
+					Name      & Gebrauch & Grösse \\
+					\textbf{Ganzzahltypen} & & \\
+					char      & Buchstaben, Zahlen & 8 Bit (1 Byte) \\
+					short     & kleine, ganzz. Werte & abh. (min 16bit) \\
+					int       & eff. Grösse des Prozessors & abh. (min 16bit) \\
+					long      & grosse ganzz. Werte & abh. (min 32bit) \\
+					long long & sehr grosse ganzz. Werte & abh. (min 64bit) \\
+					\textbf{Gleitpunkttypen} & & \\
+					float     & Gleitpunkt, single precision & abh. \\
+					double    & Gleitpunkt, high precision, Standard & abh. \\
+					long double & Gleitpunkt, higher precision & abh. \\
+					& & \\
+					\textbf{Platzhalter} & & \\
+					char                   & \verb|%c| & l, ll $>$ Typ länger als ein \verb|int| \\
+					Zeichenkette           & \verb|%s| & h, hh $>$ Typ kürzer als ein \verb|int| \\
+					Signed Ganzzahl dez.   & \verb|%d| & \\
+					Unsigned Ganzzahl dez. & \verb|%u| & \\
+					Unsigned Ganzzahl okt. & \verb|%o| & \\
+					Unsigned Ganzzahl hex. & \verb|%x| & \\
+				\end{tabular}
+				
+				\textbf{Ganzzahlen} können überlaufen!
+
+				\textbf{Gleitpunktzahlen} haben meist Rundungsfehler. Nie auf Gleichheit prüfen!
+
+			\subsubsection{Namen}
+
+			\subsubsection{Wertebereich}
+				\begin{tabular}{lll}
+					unsigned & 0...$(2^n-1)$               & n=8 : 0...255 \\
+					signed   & $-2^{n-1}...+(2^{n-1}-1)$ & n=8 : -128...+127 \\
+				\end{tabular}
+			
+	\subsection{Schleifen}
+		\subsubsection{For-Schleife}
+			\begin{minipage}{.45\linewidth}
+				\includegraphics[width=0.95\linewidth]{Bilder/forschleife.png}
+			\end{minipage}
+			\hfill
+			\begin{minipage}{.5\linewidth}
+				For-Schleife
+			\end{minipage}
+
+		\subsubsection{Switch-Schleife}
+
+		\subsubsection{Do-While-Schleife}
+
+		\subsubsection{While-Schleife}
+
+		\subsubsection{Sprunganweisungen}
 
 	\subsection{Code-Snippets}
 		\subsubsection{Array und Pointer}
