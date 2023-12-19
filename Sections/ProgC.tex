@@ -60,41 +60,54 @@
 
 			Nachfolger: Unicode (8-, 16-, 32-Bit)
 	
-	\subsection{Datentypen und Variablen}
-			\subsubsection{Datentypen}
-				\begin{tabular}{lll}
-					\textbf{Ganzzahltypen} & & \\
-					char      & Buchstaben, Zahlen & 8 Bit (1 Byte) \\
-					short     & kleine, ganzz. Werte & abh. (min 16bit) \\
-					int       & eff. Grösse des Prozessors & abh. (min 16bit) \\
-					long      & grosse ganzz. Werte & abh. (min 32bit) \\
-					long long & sehr grosse ganzz. Werte & abh. (min 64bit) \\
-					\textbf{Gleitpunkttypen} & & \\
-					float     & Gleitpunkt, single precision & abh. \\
-					double    & Gleitpunkt, high precision, Standard & abh. \\
-					long double & Gleitpunkt, higher precision & abh. \\
-					& & \\
-					\textbf{Platzhalter} & & \\
-					char                   & \verb|%c| & l, ll $>$ Typ länger als ein \verb|int| \\
-					Zeichenkette           & \verb|%s| & h, hh $>$ Typ kürzer als ein \verb|int| \\
-					Signed Ganzzahl dez.   & \verb|%d| & \\
-					Unsigned Ganzzahl dez. & \verb|%u| & \\
-					Unsigned Ganzzahl okt. & \verb|%o| & \\
-					Unsigned Ganzzahl hex. & \verb|%x| & \\
-				\end{tabular}
-				
-				\textbf{Ganzzahlen} können überlaufen!
-
-				\textbf{Gleitpunktzahlen} haben meist Rundungsfehler. Nie auf Gleichheit prüfen!
-
-			\subsubsection{Namen}
-
-			\subsubsection{Wertebereich}
-				\begin{tabular}{lll}
-					unsigned & 0...$(2^n-1)$               & n=8 : 0...255 \\
-					signed   & $-2^{n-1}...+(2^{n-1}-1)$ & n=8 : -128...+127 \\
-				\end{tabular}
+	\subsection{Datentypen}
+		\subsubsection{Datentypen}
+			\begin{tabular}{lll}
+				\textbf{Ganzzahltypen} & & \\
+				char      & Buchstaben, Zahlen & 8 Bit (1 Byte) \\
+				short     & kleine, ganzz. Werte & abh. (min 16bit) \\
+				int       & eff. Grösse des Prozessors & abh. (min 16bit) \\
+				long      & grosse ganzz. Werte & abh. (min 32bit) \\
+				long long & sehr grosse ganzz. Werte & abh. (min 64bit) \\
+				\textbf{Gleitpunkttypen} & & \\
+				float     & Gleitpunkt, single precision & abh. \\
+				double    & Gleitpunkt, high precision, Standard & abh. \\
+				long double & Gleitpunkt, higher precision & abh. \\
+				& & \\
+				\textbf{Platzhalter} & & \\
+				char                   & \verb|%c| & l, ll $>$ Typ länger als ein \verb|int| \\
+				Zeichenkette           & \verb|%s| & h, hh $>$ Typ kürzer als ein \verb|int| \\
+				Signed Ganzzahl dez.   & \verb|%d| & \\
+				Unsigned Ganzzahl dez. & \verb|%u| & \\
+				Unsigned Ganzzahl okt. & \verb|%o| & \\
+				Unsigned Ganzzahl hex. & \verb|%x| & \\
+			\end{tabular}
 			
+			\textbf{Ganzzahlen} können überlaufen!
+
+			\textbf{Gleitpunktzahlen} haben meist Rundungsfehler. Nie auf Gleichheit prüfen!
+
+		\subsubsection{Typumwandlung}
+			\verb|float f = 41.7;|\\
+			Implizit: Eine Kommazahl ohne \verb|f| am Ende hat den Typ \verb|double|
+			\\
+			\\
+			\verb|int x = (int) f;|\\
+			Explizit: x hat den Wert 41, Nachkommastellen werden abgeschnitten
+
+		\subsubsection{Namen}
+
+		\subsubsection{Wertebereich}
+			\begin{tabular}{lll}
+				unsigned & 0...$(2^n-1)$               & n=8 : 0...255 \\
+				signed   & $-2^{n-1}...+(2^{n-1}-1)$ & n=8 : -128...+127 \\
+			\end{tabular}
+		
+	\subsection{Variablen}
+		\begin{minipage}{1\linewidth}
+			\includegraphics[width=1\linewidth]{Bilder/sichtbarkeit_variablen.png}
+		\end{minipage}
+
 	\subsection{Schleifen}
 		\begin{itemize}
 			\item \verb|for|-Schleife: Für Zählschleifen, bzw. wenn die Anzahl Durchläufe bekannt ist
