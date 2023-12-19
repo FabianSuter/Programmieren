@@ -1,6 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1702992053 "c:/Users/suter/OneDrive - OST/OST/Formelsammlung/ProgC/ProgC.tex" "ProgC.pdf" "ProgC" 1702992054 0
+["pdflatex"] 1702993486 "c:/Users/suter/OneDrive - OST/OST/Formelsammlung/ProgC/ProgC.tex" "ProgC.pdf" "ProgC" 1702993487 0
+  "Bilder/Switch.png" 1702991444 65945 365076ba49911313286e0c765caad66a ""
+  "Bilder/dowhile.png" 1702991670 51316 a3b991d6fbc6fa5a11c5e92ef3329d32 ""
   "Bilder/forschleife.png" 1702991741 62958 240627e902e672719f49bf065dc47486 ""
+  "Bilder/while1.png" 1702991531 15784 1cbaa60a73e66c020f377af0911f84e5 ""
+  "Bilder/while2.png" 1702991578 8992 139854e67b5e7f03c0299548347e4dbd ""
   "C:/Users/suter/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1699380076 118671 0baee6bb4e3d8f916f4591207a34e899 ""
   "C:/Users/suter/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0800.pk" 1698083003 9292 fb190d30c515815d6315b092fa250e59 ""
   "C:/Users/suter/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1698243540 24175185 ae0ac9a63fe1aa4dc109ed40789cd94d ""
@@ -209,10 +213,10 @@
   "C:/Users/suter/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1686255640 32515 51caec75eda9c8890135f12f1a4eddc3 ""
   "C:/Users/suter/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/suter/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "ProgC.aux" 1702992054 6246 6f55830f87712d65dec57a8597b7a4d9 "pdflatex"
-  "ProgC.out" 1702992054 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "ProgC.aux" 1702993487 6251 daaf8fcd6276ba0da367569dedcd01e3 "pdflatex"
+  "ProgC.out" 1702993487 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "ProgC.tex" 1702904926 2838 9494922692fe9b4bb6a7d60d06da2e72 ""
-  "Sections/ProgC.tex" 1702992050 5207 e9bfdd9cf3eea6594f78e1aa2a2c08fd ""
+  "Sections/ProgC.tex" 1702993485 6438 4f07daadec264c855c9afee17ba8dc95 ""
   "c:/Users/suter/OneDrive - OST/OST/Formelsammlung/ProgC/ProgC.tex" 1702904926 2838 9494922692fe9b4bb6a7d60d06da2e72 ""
   (generated)
   "ProgC.aux"

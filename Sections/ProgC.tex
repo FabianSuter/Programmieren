@@ -63,7 +63,6 @@
 	\subsection{Datentypen und Variablen}
 			\subsubsection{Datentypen}
 				\begin{tabular}{lll}
-					Name      & Gebrauch & Grösse \\
 					\textbf{Ganzzahltypen} & & \\
 					char      & Buchstaben, Zahlen & 8 Bit (1 Byte) \\
 					short     & kleine, ganzz. Werte & abh. (min 16bit) \\
@@ -97,6 +96,12 @@
 				\end{tabular}
 			
 	\subsection{Schleifen}
+		\begin{itemize}
+			\item \verb|for|-Schleife: Für Zählschleifen, bzw. wenn die Anzahl Durchläufe bekannt ist
+			\item \verb|do...while|-Schleife: Keine Zählschleife, min. 1 Durchlauf
+			\item \verb|while|-Schleife: In allen anderen Fällen	
+		\end{itemize}
+
 		\subsubsection{For-Schleife}
 			\begin{minipage}{.45\linewidth}
 				\includegraphics[width=0.95\linewidth]{Bilder/forschleife.png}
@@ -107,12 +112,40 @@
 			\end{minipage}
 
 		\subsubsection{Switch-Schleife}
+			\begin{minipage}{.45\linewidth}
+				\includegraphics[width=0.95\linewidth]{Bilder/Switch.png}
+			\end{minipage}
+			\hfill
+			\begin{minipage}{.5\linewidth}
+				Switch-Schleife
+			\end{minipage}
 
 		\subsubsection{Do-While-Schleife}
+			\begin{minipage}{.45\linewidth}
+				\includegraphics[width=0.95\linewidth]{Bilder/dowhile.png}
+			\end{minipage}
+			\hfill
+			\begin{minipage}{.5\linewidth}
+				Do-While-Schleife
+			\end{minipage}
 
 		\subsubsection{While-Schleife}
+			\begin{minipage}{.45\linewidth}
+				\includegraphics[width=0.5\linewidth]{Bilder/while1.png}
+				\includegraphics[width=0.5\linewidth]{Bilder/while2.png}
+			\end{minipage}
+			\hfill
+			\begin{minipage}{.5\linewidth}
+				While-Schleife
+			\end{minipage}
 
 		\subsubsection{Sprunganweisungen}
+			\begin{itemize}
+				\item \verb|break|: Schleifen abbrechen, zurückhaltend einsetzen!
+				\item \verb|continue|: nächsten Schleifendurchgang starten, sehr zurückhaltend einsetzen!
+				\item \verb|return|: aus Funktion zum Aufruf springen
+				\item \verb|goto|: zu einer Marke springen, VERMEIDEN!
+			\end{itemize}
 
 	\subsection{Code-Snippets}
 		\subsubsection{Array und Pointer}
