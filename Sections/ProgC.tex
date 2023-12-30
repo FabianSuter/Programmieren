@@ -62,28 +62,38 @@
 	
 	\subsection{Datentypen}
 		\subsubsection{Datentypen}
-			\begin{tabular}{lll}
-				\textbf{Ganzzahltypen} & & \\
-				char      & Buchstaben, Zahlen & 8 Bit (1 Byte) \\
-				short     & kleine, ganzz. Werte & abh. (min 16bit) \\
-				int       & eff. Grösse des Prozessors & abh. (min 16bit) \\
-				long      & grosse ganzz. Werte & abh. (min 32bit) \\
-				long long & sehr grosse ganzz. Werte & abh. (min 64bit) \\
-				\textbf{Gleitpunkttypen} & & \\
-				float     & Gleitpunkt, single precision & abh. \\
-				double    & Gleitpunkt, high precision, Standard & abh. \\
-				long double & Gleitpunkt, higher precision & abh. \\
-				& & \\
-				\textbf{Platzhalter} & & \\
-				char                   & \verb|%c| & l, ll $>$ Typ länger als ein \verb|int| \\
-				Zeichenkette           & \verb|%s| & h, hh $>$ Typ kürzer als ein \verb|int| \\
-				Signed Ganzzahl dez.   & \verb|%d| & \\
-				Unsigned Ganzzahl dez. & \verb|%u| & \\
-				Unsigned Ganzzahl okt. & \verb|%o| & \\
-				Unsigned Ganzzahl hex. & \verb|%x| & \\
+			\begin{tabular}{lccll}
+				\textit{Typ} & \textit{Anz. Bytes} & \textit{Bereich} & \textit{scanf} & \textit{Spezielles} \\
+				\hline
+				\textbf{Ganze Zahlen} & & & & \\
+				byte & 1  & 0 ... +255 & & \\
+				short & 2 & $-2^{15} ... +2^{15}-1$ & \verb|%d; %i| & Hex: \verb|%x; %X| \\
+				int & 4 & $-2^{31} ... +2^{31}-1$ & \verb|%d| & Hex: \verb|%x; %X| \\
+				long & 8  & $-2^{63} ... +2^{63}-1$ & \verb|%ld; %li| & Hex: \verb|%x; %X| \\
+				\hline
+				\textbf{Dezimalzahlen} & & & (Expon.: \verb|%e|) & \\
+				float  & 4  & $1.2E-38$ ... $3.4E+38$ & \verb|%f| & 6 Dez.stellen \\ %6 dez
+				double & 8  & $2.3E-308$ ... $1.7E+308$ & \verb|%lf| & 15 Dez.stellen \\ %15 dez
+				\hline
+				\textbf{Spezial} & & & & \\
+				char    & 1 & Einzelne Buchstaben & \verb|%c| & \\
+				boolean & 1 & True / False & & \\
+				string  &   & Zeichenkette; Text & \verb|%s| & \\
+				\hline
+				\textbf{Vorzeichen, Versch.} & & & & \\
+				unsigned char          & 1 & 0 ... +255    & \verb|%c| & \\
+				signed char            & 1 & -128 ... +127 & \verb|%c| & \\
+				unsigned int           & 4 & 0 ... $+2^{32}-1$ & \verb|%u| & \\
+				short int              & 2 & $-2^{15} ... +2^{15}-1$ & \verb|%hd| & \\
+				unsigned short int     & 2 & 0 ... $+2^{16}-1$ & \verb|%hu| & \\
+				long int               & 4 & $-2^{31} ... +2^{31}-1$ & \verb|%ld| & \\
+				unsigned long int      & 4 & 0 ... $+2^{32}-1$ & \verb|%lu| & \\
+				long long int          & 8 & $-2^{63} ... +2^{63}-1$ & \verb|%lld| & \\
+				unsigned long long int & 8 & 0 ... $+2^{64}-1$ & \verb|%llu| & \\
+				long double            & 16 & $3.3E-4932$ ... $1.1E+4932$ & \verb|%Lf| & 18 Dez.stellen \\ %18 dez
 			\end{tabular}
 			
-			\textbf{Ganzzahlen} können überlaufen!
+ 			\textbf{Ganzzahlen} können überlaufen!
 
 			\textbf{Gleitpunktzahlen} haben meist Rundungsfehler. Nie auf Gleichheit prüfen!
 

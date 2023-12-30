@@ -358,6 +358,7 @@ INPUT Sections\ProgC.tex
 INPUT C:\Users\suter\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
 INPUT C:\Users\suter\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss10.tfm
 INPUT C:\Users\suter\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt8.tfm
+INPUT C:\Users\suter\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti8.tfm
 INPUT .\Bilder\sichtbarkeit_variablen.png
 INPUT .\Bilder\sichtbarkeit_variablen.png
 INPUT .\Bilder\sichtbarkeit_variablen.png
@@ -373,14 +374,14 @@ INPUT .\Bilder\forschleife.png
 INPUT .\Bilder\forschleife.png
 INPUT .\Bilder\forschleife.png
 INPUT .\Bilder\forschleife.png
-INPUT .\Bilder\Switch.png
-INPUT .\Bilder\Switch.png
-INPUT .\Bilder\Switch.png
-INPUT .\Bilder\Switch.png
-INPUT .\Bilder\Switch.png
-INPUT .\Bilder\Switch.png
-INPUT .\Bilder\Switch.png
 INPUT C:\Users\suter\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT .\Bilder\Switch.png
+INPUT .\Bilder\Switch.png
+INPUT .\Bilder\Switch.png
+INPUT .\Bilder\Switch.png
+INPUT .\Bilder\Switch.png
+INPUT .\Bilder\Switch.png
+INPUT .\Bilder\Switch.png
 INPUT .\Bilder\dowhile.png
 INPUT .\Bilder\dowhile.png
 INPUT .\Bilder\dowhile.png
@@ -441,5 +442,7 @@ INPUT C:\Users\suter\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\suter\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
 INPUT C:\Users\suter\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\suter\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT C:\Users\suter\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti8.pfb
+INPUT C:\Users\suter\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti8.pfb
 INPUT C:\Users\suter\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt8.pfb
 INPUT C:\Users\suter\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt8.pfb
