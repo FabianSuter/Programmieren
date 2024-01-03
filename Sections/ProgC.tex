@@ -181,6 +181,110 @@
 				\item \verb|goto|: zu einer Marke springen, VERMEIDEN!
 			\end{itemize}
 
+	\subsection{Pointer}
+		\subsubsection{Nullpointer}
+			\begin{minipage}{1\linewidth}
+				\includegraphics[width=0.95\linewidth]{Bilder/nullpointer.png}
+			\end{minipage}
+
+		\subsubsection{Ref- und Dereferenzieren}
+			\begin{tabular}{l|l}
+				\textbf{Referenzieren} & \textbf{Dereferenzieren} \\
+				\includegraphics[height=3.2cm]{Bilder/referenzieren.png} &  \includegraphics[height=3.2cm]{Bilder/dereferenzieren.png} \\
+				\textbf{\&} verknüpft den Pointer mit einer Variable   &  \textbf{*} liefert den Inhalt der Speicherzelle der Adr. \\
+			\end{tabular}
+
+			\begin{minipage}{1\linewidth}
+				\includegraphics[width=0.5\linewidth]{Bilder/vergl-ref-deref.png}
+			\end{minipage}
+
+			%ToDo: Prüfungsbeispiel reinpappen
+
+		\subsubsection{Zuweisungen}
+			\begin{lstlisting}[language=C]
+int     a;
+double  d;
+int*    pi = &a;
+int*    pj;
+double* pd = &d;
+void*   pv; 
+
+pv = pd;	 //erlaubt, da pv void-Pointer
+pj = pi;	 //erlaubt, gleicher Typ
+pd = pi;	 //nicht erlaubt, untersch. Typen
+pi = pv;	 //erlaubt, da pv void-Pointer
+pd = (double*)pj;//erlaubt da Type-Cast
+			\end{lstlisting}
+		
+	\subsection{Arrays}
+			Arrays arbeiten mit Array-Index. In C beginnt dieser bei 0 und endet bei $n-1$:
+			\begin{lstlisting}[language=C]
+int alpha[5];  // Array "alpha" mit 5 El. vom Typ int
+alpha[0] = 14; // 1. Element (Index 0) = 14
+alpha[4] = 3;  // letztes Element (Index 4)
+alpha[5] = 4;  // Bereichsueberschr.! -> undefined behaviour
+			\end{lstlisting}
+			\textbf{Memorymap:}\\
+				\begin{minipage}{1\linewidth}
+					\includegraphics[width=0.5\linewidth]{Bilder/arr-mem-map.png}
+				\end{minipage}
+
+		\subsubsection{Initialisierungsvarianten}
+			\begin{lstlisting}[language=C]
+int a1[5] = {0, 8, 5, 1, 2};
+int a2[5] = {1, 8};         //Index 1 bis 3 sind auf "0"
+int a3[5] = {};             //Alle Elemente sind auf "0"
+int a4[] = {12, 3, 2};      //Groesse anhand der Anz. Elemente => "[3]"
+			\end{lstlisting}
+
+		\subsubsection{Grösse eines Arrays}
+			\verb|sizeof()| liefert bei Arrays die Grösse in \textbf{Bytes}\\
+			Zur Bestimmung der Anzahl Elemente kann die Grösse des Arrays durch die Grösse eines Wertes geteilt werden:
+			\begin{lstlisting}[language=C]
+int main() {
+	int arr[] = {4, 3, 2, 1};
+	printf("arr hat %lu Elemente\n", sizeof(arr)/siezof(arr[0]));
+	return 0;
+}
+			\end{lstlisting}
+
+		\subsubsection{char - Arrays}
+			Ein String in C ist immer ein Array von Zeichen. (\verb|char| - Array).\\
+			Ein String in C muss \textbf{immer} mit \verb|\0| abgeschlossen werden und braucht eine Stelle des Arrays!
+			\begin{lstlisting}[language=C]
+// Folgende Varianten sind gleichwertig:
+char name[15] = {1, 2, 3, 4, 5, 0};
+char name[15] = {'M', 'e', 'i' 'e', 'r', '\0'};
+char name[15] = "Meier";
+			\end{lstlisting}
+
+		\subsubsection{Array mit Schleife durchlaufen (Bsp.)}
+			\begin{lstlisting}[language=C]
+enum{groesse = 5};
+int alpha[groesse];
+
+for(int i = 0; i < groesse; ++i)
+	printf("%d \n", alpha[i]) // keine "{}", da nur eine Zeile
+			\end{lstlisting}
+
+		\subsubsection{Weitere Array-Regeln}
+			\begin{itemize}
+				\item Ein Array als Ganzes kann keine Werte annehmen, nur einzelne Elemente
+				\item Die üblichen Operatoren können nicht auf Arrays angewendet werden
+				\item Funktionen in C können \textbf{keine} Arrays als Aufrufparameter haben!
+				\item Wird bei einem Funktionsaufruf ein Array als Parameter übergeben, wird das Array \textit{implizit zu einem Pointer auf das Element an Index 0 konvertiert}
+				\item Der Name des Arrays kann als \textit{konst. Adresse} von Index 0 des Arrays verwendet werden: \verb|alpha[i] == *(alpha +i)| \\
+				\textbf{Achtung!}
+				\begin{itemize}
+					\item Der Pointer \textbf{ptr} bewegt sich bei \textbf{ptr$+$n} immer um \textbf{n * sizeof(Typ)} Bytes!
+					\item Wenn der Pointer über den Bereich hinauszeigt, ist das zwar legal, das Resultat ist aber undefiniert.
+				\end{itemize}
+				\item Zuweisung eines Arrays auf einen Pointer:\\
+				\includegraphics[height=2cm]{Bilder/arr-ptr-zuweisung.png}
+				\item Benutzung eines Pointers im Array-Stil:\\
+				\includegraphics[height=2cm]{Bilder/ptr-im-arr-stil.png}	
+			\end{itemize}
+
 	\subsection{Code-Snippets}
 		\subsubsection{Array und Pointer}
 			\begin{lstlisting}[language=C]
