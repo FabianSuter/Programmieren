@@ -464,6 +464,62 @@ void* memchr(cont void* s, int c, size_t n);
 void* memset(void* s, int c, size_t n);
 			\end{lstlisting}
 
+	\subsection{Static}
+		\underline{\textbf{\textit{static}-Funktionen}}
+			\begin{itemize}
+				\item \verb|static|-Funktionen sind nur in der Compile-Unit, in welcher sie definiert sind, sichtbar
+				\item Alle Funktionen, welche von aussen nicht sichtbar sein müssen, sollten deshalb als \verb|static| definiert werden
+				\item Ein versuchter Zugriff auf statische Elemente von einer weiteren Datei ergibt einen Linkerfehler
+				\item \textbf{Alle Funktionen \textit{static} definieren, welche keine Schnittstelle nach aussen bilden!}
+			\end{itemize}
+		
+		\underline{\textbf{\textit{static}-Variablen}}
+			\begin{itemize}
+				\item Globale Variablen
+				\begin{itemize}
+					\item Analog zu den Funktionen: nur am Definitionsort gültig
+				\end{itemize}
+				\item Lokale Variablen
+				\begin{itemize}
+					\item \textbf{Achtung: Komplett andere Bedeutung desselben Schlüsselwortes!}
+					\item Lokale \textit{static}-Variablen haben eine Lebensdauer wie eine globale Variable. Dadurch bleibt der Wert der lokalen Variable erhalten, auch wenn die Funktion verlassen wird.\\
+					($\rightarrow$ Gleiches Verhalten wie globale Variable, abgesehen von der \textit{Sichtbarkeit})
+					\item Werden automatisch mit 0 initialisiert
+					\item $\rightarrow$ Kompromiss zwischen gloabler und lokaler Variable
+				\end{itemize}
+			\end{itemize}
+
+	\subsection{Iterativ vs. Rekursiv}
+		\begin{minipage}{0.49\linewidth}
+			Iterativ:\\
+			$0! = 1$ \\
+			$n! = 1 \cdot 2 \cdot ... \cdot (n-1) \cdot n$
+			\begin{lstlisting}[language=C]
+unsigned long
+faku(unsigned int n){
+	unsigned long fak = 1UL;
+	for(unsigned int i = 2; i <= n; ++i)
+		fak = fak * i;
+	return fak;
+}
+			\end{lstlisting}
+		\end{minipage}
+		\hfill
+		\begin{minipage}{0.49\linewidth}
+			Rekursiv:\\
+			$0! = 1$ \\
+			$n! = $\textbf{(n-1)!}$ \cdot n$
+			\begin{lstlisting}[language=C]
+unsigned long
+faku(unsigned int n){
+	if(n > 1)
+		return n * faku(n-1);
+	else
+		return 1UL;
+}
+				\end{lstlisting}
+		\end{minipage}
+
 	\subsection{Code-Snippets}
 		\subsubsection{Array und Pointer 1}
 			\begin{lstlisting}[language=C]
