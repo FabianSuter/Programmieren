@@ -63,7 +63,7 @@
 	\subsection{Datentypen}
 		\subsubsection{Datentypen}
 			\begin{tabular}{lccll}
-				\textit{Typ} & \textit{Anz. Bytes} & \textit{Bereich} & \textit{scanf} & \textit{Spezielles} \\
+				\textit{Typ} & \textit{Anz. Bytes} & \textit{Bereich} & \textit{printf} & \textit{Spezielles} \\
 				\hline
 				\textbf{Ganze Zahlen} & & & & \\
 				byte & 1  & 0 ... +255 & & \\
@@ -97,6 +97,12 @@
 
 			\textbf{Gleitpunktzahlen} haben meist Rundungsfehler. Nie auf Gleichheit prüfen!
 
+			\textbf{Wertebereich:} \\
+			\begin{tabular}{lll}
+				$\cdot$ unsigned & 0...$(2^n-1)$               & n=8 : 0...255 \\
+				$\cdot$ signed   & $-2^{n-1}...+(2^{n-1}-1)$ & n=8 : -128...+127 \\
+			\end{tabular}
+
 		\subsubsection{Typumwandlung}
 			\verb|float f = 41.7;|\\
 			Implizit: Eine Kommazahl ohne \verb|f| am Ende hat den Typ \verb|double|
@@ -108,26 +114,101 @@
 		\subsubsection{Namen}
 			\begin{minipage}{0.35\linewidth}
 				\begin{itemize}
-					\item Idealerweise mit Kleinbuchstaben beginnen
-					\item Buchstaben, Ziffern, Underscore
-					\item Camelcase
+					\item Buchstaben a-z, A-Z
+					\item Ziffern 0-9
+					\item Underscore
+					\item \verb|alpha| $\neq$ \verb|Alpha|
 				\end{itemize}
+				\textbf{Das erste Zeichen darf keine Ziffer sein}
 			\end{minipage}
 			\hfill
 			\begin{minipage}{0.6\linewidth}
 				\includegraphics[width=1\linewidth]{Bilder/verbotene_namen.png}
 			\end{minipage}
 
-		\subsubsection{Wertebereich}
-			\begin{tabular}{lll}
-				unsigned & 0...$(2^n-1)$               & n=8 : 0...255 \\
-				signed   & $-2^{n-1}...+(2^{n-1}-1)$ & n=8 : -128...+127 \\
-			\end{tabular}
+		\subsubsection{Konstanten}
+			\begin{minipage}{0.45\linewidth}
+				Literale Konstanten:\\
+				\includegraphics[width=1\linewidth]{Bilder/lit-konstanten.png}
+			\end{minipage}
+			\hfill
+			\begin{minipage}{0.45\linewidth}
+				Symbolische Konstanten:
+				\begin{lstlisting}[language=C]
+//Mit #define
+#define PI (3.14159)
+
+//Mit enum
+enum{
+	listLength = 40;
+	commLength = 30;
+	dateLength = 20;
+}
+				\end{lstlisting}
+			\end{minipage}
 		
 	\subsection{Variablen}
 		\begin{minipage}{1\linewidth}
 			\includegraphics[width=1\linewidth]{Bilder/sichtbarkeit_variablen.png}
 		\end{minipage}
+
+	\subsection{Operatoren und Operanden}
+		\begin{itemize}
+			\item unär (monadisch): hat einen einzigen Operator
+			\begin{itemize}
+				\item Inkremental ++
+				\item De-, Referenzieren (\&, *)
+				\item !wahrheitswert (Negation)
+			\end{itemize}
+			\item binär (dyadisch): hat zwei Operanden
+			\begin{itemize}
+				\item z.B. 3+4 od. a+b
+			\end{itemize}
+			\item ternär (triadisch): hat drei Operanden
+			\begin{itemize}
+				\item \textbf{Mini-If}: \verb|wahrheitswert?wert1:wert2|\\
+				(wert1 für \textit{wahr}, wert2 für \textit{falsch}) \\
+				(z.B. \verb|x?"wahr":"unwahr"|)
+			\end{itemize}
+		\end{itemize}
+
+		\subsubsection{Priorität \& Assoziativität}
+			\begin{minipage}{0.8\linewidth}
+					\includegraphics[width=1\linewidth]{Bilder/operatoren_prio.png}
+			\end{minipage}
+			
+			Assoziativität: Reihenfolge der Operationen bei gleicher Priorität
+		
+		\subsubsection{Inkrementieren \& Dekrementieren}
+			\textbf{Postinkrement:}
+			\begin{lstlisting}[language=C]
+printf("%d", i++)
+//i wird zuerst geschrieben, anschliessend inkrementiert
+			\end{lstlisting}
+			\textbf{Präinkrement:}
+			\begin{lstlisting}[language=C]
+printf("%d", ++i)
+//i wird zuerst inkrementiert, anschliessend geschrieben
+			\end{lstlisting}
+
+		\subsubsection{Logisch vs. bitweise Operatoren}
+			$\parallel$ = OR\\
+			\&\& = AND \\
+			\\
+			\textbf{Logisch:}
+				\begin{lstlisting}[language=C]
+signed char a = 0;   //bedeutet unwahr
+signed char b = -27; //bedeutet wahr
+if(a&&b){
+	printf("A und B sind wahr");
+}	
+				\end{lstlisting}
+			\textbf{Bitweise:}
+				\begin{lstlisting}[language=C]
+unsigned char a = 128: // 1000'0000
+unsigned char b = 16;  // 0001'0000
+printf("%d\n", a | b); // 1001'0000 
+				\end{lstlisting}
 
 	\subsection{Schleifen}
 		\begin{itemize}
@@ -216,6 +297,14 @@ pi = pv;	 //erlaubt, da pv void-Pointer
 pd = (double*)pj;//erlaubt da Type-Cast
 			\end{lstlisting}
 		
+		\subsubsection{Addition, Subtraktion}
+			Von einem Pointer können ganze Zahlen addiert oder subtrahiert werden. Der Pointer \textbf{ptr} bewegt sich bei \textbf{ptr$+$n} immer um \textbf{n * sizeof(Typ)} Bytes. \\
+			\includegraphics[height=2.5cm]{Bilder/ptr_add-subtraction.png}
+
+			\textbf{Weitere Optionen:}\\
+				Pointer funktioneren auch mit anderen Operatoren.\\
+				\textbf{\textit{Vergleiche}} mit \verb|==, !=, <, >, >=, etc.| funktionieren bei Pointern desselben Typs.
+
 	\subsection{Arrays}
 			Arrays arbeiten mit Array-Index. In C beginnt dieser bei 0 und endet bei $n-1$:
 			\begin{lstlisting}[language=C]
@@ -247,6 +336,10 @@ int main() {
 	return 0;
 }
 			\end{lstlisting}
+
+		\subsubsection{Mehrdimensionale Arrays}
+			Arrays können auch als Matritzen verwendet werden, wobei der erste Wert der Zeilenindex und der zweite der Spaltenindex ist.\\
+			\includegraphics[height=3cm]{Bilder/arr_mehrdimensional.png}
 
 		\subsubsection{char - Arrays}
 			Ein String in C ist immer ein Array von Zeichen. (\verb|char| - Array).\\
@@ -285,8 +378,88 @@ for(int i = 0; i < groesse; ++i)
 				\includegraphics[height=2cm]{Bilder/ptr-im-arr-stil.png}	
 			\end{itemize}
 
+	\subsection{Strings und Speicher}
+		Für alle Funktionen in diesem Kapitel: \verb|#include <string.h>|
+		\subsubsection{Strings kopieren}
+			\begin{lstlisting}[language=C]
+char* strcpy(char* dest, const char* src);
+
+char* strncpy(char* dest, const char* src, size_t n);
+			\end{lstlisting}
+			\textbf{String copy}
+				\begin{itemize}
+					\item kopiert von \verb|src| nach \verb|dest|, inklusive \verb|'\0'| \\ (bei \verb|strncpy()| maximal n chars)
+					\item return: \verb|dest|
+					\item \verb|dest| muss bei \verb|strcpy()| auf einen genügend grossen Bereich zeigen\\ (Ansonsten werden Speicherbereiche nach \verb|dest| überschrieben)
+				\end{itemize}
+
+		\subsubsection{Strings zusammenfügen}
+			\begin{lstlisting}[language=C]
+char* strcat(char* dest, const char* src);
+
+char* strncat(char* dest, const char* src, size_t n);
+			\end{lstlisting}
+			\textbf{String concatenate}
+				\begin{itemize}
+					\item hängt von \verb|src| nach \verb|dest| an, inklusive \verb|'\0'| \\
+					(bei \verb|strncat()| maximal n chars) \\
+					Das ursprüngliche \verb|'\0'| von \verb|dest| wird überschrieben 
+					\item return: \verb|dest|
+					\item \verb|dest| muss bei \verb|strcat()| auf einen genügend grossen Bereich zeigen\\ (Ansonsten werden Speicherbereiche nach \verb|dest| überschrieben)
+				\end{itemize}
+
+		\subsubsection{Strings vergleichen}
+			\begin{lstlisting}[language=C]
+char* strcmp(const char* s1, const char* s2);
+
+char* strncmp(const char* s1, const char* s2, size_t n);
+			\end{lstlisting}
+			\textbf{String compare}
+				\begin{itemize}
+					\item vergleicht die beiden Strings, auf die \verb|s1| und \verb|s2| zeigen,\\
+					bei \verb|strncmp()| nur die ersten n char's
+					\item return:
+					\begin{itemize}
+						\item $<0$ : *s1 ist lexikographisch kleiner als *s2
+						\item $==0$: *s1 und *s2 sind gleich
+						\item $>0$ : *s1 ist lexikographisch grösser als *s2
+					\end{itemize}
+				\end{itemize}
+		\subsubsection{Stringlänge bestimmen}
+			\begin{lstlisting}[language=C]
+size_t strlen(const char* s);
+			\end{lstlisting}
+			\textbf{String length}
+				\begin{itemize}
+					\item bestimmt die Länge des Strings s, d.h. die Anazhl char's. \verb|'\0'| wird nicht mitgezählt 
+					\item return: Länge des Strings
+				\end{itemize}
+		\subsubsection{Speicher bearbeiten}
+			\begin{itemize}
+				\item Aufrufparams sind vom Typ \verb|void*| statt \verb|char*|
+				\item Die \textbf{mem}-Funktionen arbeiten byteweise
+				\item Das \verb|'\0'|-Zeichen wird nicht speziell behandelt wie bei den \textbf{str}-Funktionen
+				\item Die Bufferlänge muss als Parameter übergeben werden
+			\end{itemize}
+			\begin{lstlisting}[language=C]
+//Speicherbereich kopieren (ohne Ueberlappung!)
+void* memcpy(void* dest, const void* src, size_t n);
+
+//Speicherbereich verschieben
+void* memmove(void* dest, const void* src, size_t n);
+
+//Speicherbereiche vergleichen
+int memcmp(const void* s1, const void* s2, size_t n);
+
+//Erstes Auftreten von Zeichen c in Bereich s suchen
+void* memchr(cont void* s, int c, size_t n);
+
+//Speicherbereich mit Wert belegen
+void* memset(void* s, int c, size_t n);
+			\end{lstlisting}
+
 	\subsection{Code-Snippets}
-		\subsubsection{Array und Pointer}
+		\subsubsection{Array und Pointer 1}
 			\begin{lstlisting}[language=C]
 #include <stdio.h>
 
@@ -314,4 +487,44 @@ int* findAbsMax(int* arr, size_t size){
 	}
 	return max_ptr;
 }
+			\end{lstlisting}
+			%\par\noindent\rule{\linewidth}{0.2pt} %war gedacht als Trenner, ist aber durch Formatierung überflüssig
+		
+		\subsubsection{Array und Pointer 2}
+			Programm liest Wert um Wert ein und gibt sie wieder zurück. \verb|init| in Pointer-Schreibweise, \verb|ausgabe| in Array-Schreibweise.
+			\begin{lstlisting}[language=C]
+#include <stdio.h>
+enum{groesse = 3};
+
+void init(int* alpha, int dim){ //alpha in Pointer-Schreibweise
+	for(int i = 0; i < dim, ++i){
+		printf("Eingabe Wert mit Index %d von arr:", i);
+		scanf("%d", alpha++);
+	}
+}
+
+void ausgabe(const int alpha[], int dim){ //alpha in Array-Schreibweise
+	for(int i = 0; i < dim; ++i)
+		printf("arr[%d] hat Wert: %d\n", i, alpha[i])
+}
+
+int main(void){
+	int arr[groesse];
+	init(arr, sizeof(arr)/sizeof(arr[0]));
+	ausgabe(arr, sizeof(arr)/sizeof(arr[0]));
+	return 0;
+}
+			\end{lstlisting}
+
+		\subsubsection{Bitweise Zahl ausgeben}
+			Funktion gibt die Zahl bitweise aus, beginnend mit MSB\\
+			In diesem Fall 1000'0000
+			\begin{lstlisting}[language=C]
+unsigned char x = 128;
+for(int i = 0; i < 8; i++){
+	int bitValue = 1 & x;
+	printf("%d", bitValue);
+	x = x >> 1;
+}
+return 0;
 			\end{lstlisting}

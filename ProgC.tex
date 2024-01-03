@@ -4,8 +4,12 @@
 
 \usepackage{hyperref}
 
-\usepackage{listings}  %Für Code-Snippets
-
+\usepackage{listings}      %Für Code-Snippets
+\lstdefinestyle{myStyle}{  %Code-Snippets Style changes
+	frame=single,		   %Rahmen um jeden Code-Block
+	tabsize=2,   		   %Tabbreite 2 Leerschläge
+}
+\lstset{style=myStyle} %set this style globally
 %---------------------------------------------------------------------------------------
 
 %Layout
@@ -75,7 +79,7 @@
 	\setlength{\fboxsep}{0cm}%already boxed
 	\colorbox{subsubsection}{%
 		\begin{minipage}{\linewidth}%
-			\vspace*{1pt}%Space before
+			\vspace*{0.5pt}%Space before
 			\leftskip2pt %Space left
 			\rightskip\leftskip %Space right
 			{\color{titletext} #1}
