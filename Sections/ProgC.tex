@@ -519,6 +519,38 @@ faku(unsigned int n){
 }
 				\end{lstlisting}
 		\end{minipage}
+	
+	\subsection{Präprozessor}
+		\begin{tabular}{ll}
+			\verb|#define ALT NEU|  & Ersetzt ALT durch NEU \\
+			\verb|#include| $"$Datei$"$ & Fügt Inhalt aus Datei an die aktuelle Position \\
+			\verb|#include| $<$Datei$>$ & Gleich wie oben \\
+			\verb|#ifdef Marke ... #endif| & Prüt, ob Marke definiert ist \\
+			\verb|#ifndef Marke ... #endif| & Prüt, ob Marke nicht definiert ist \\
+			\verb|#error(Nachricht)| & Bricht den Compile-Vorgang ab \\ 
+		\end{tabular}
+
+		\subsubsection{Beispiele}
+			\begin{lstlisting}[language=C]
+#include <stdio.h>
+
+#ifndef __cplusplus
+	#error Ich brauche keinen C++-Compiler
+#endif
+
+#ifdef __APPLE_
+	#error Ich mag keine Aepfel
+#endif
+
+#ifdef __WIND32__
+	#error Ich mag kein Windows
+#endif
+
+int main(){
+	printf("Ich bin sehr waehlerisch\n");
+	return 0;
+}
+			\end{lstlisting}
 
 	\subsection{Code-Snippets}
 		\subsubsection{Array und Pointer 1}
