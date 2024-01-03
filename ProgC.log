@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.25)  3 JAN 2024 22:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.25)  3 JAN 2024 22:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1010,10 +1010,10 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 106.
+(scrartcl)              `\normalfont \sffamily ' on input line 108.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--113
+Underfull \hbox (badness 10000) in paragraph at lines 109--115
 
  []
 
@@ -1036,12 +1036,12 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 114.
+(scrartcl)              `\normalfont \sffamily ' on input line 116.
 
 <Bilder/verbotene_namen.png, id=7, 498.36188pt x 237.88875pt>
 File: Bilder/verbotene_namen.png Graphic file (type png)
 <use Bilder/verbotene_namen.png>
-Package pdftex.def Info: Bilder/verbotene_namen.png  used on input line 126.
+Package pdftex.def Info: Bilder/verbotene_namen.png  used on input line 128.
 (pdftex.def)             Requested size: 233.44478pt x 111.4302pt.
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -1062,24 +1062,24 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 129.
+(scrartcl)              `\normalfont \sffamily ' on input line 131.
 
 <Bilder/lit-konstanten.png, id=9, 321.45094pt x 182.93344pt>
 File: Bilder/lit-konstanten.png Graphic file (type png)
 <use Bilder/lit-konstanten.png>
-Package pdftex.def Info: Bilder/lit-konstanten.png  used on input line 132.
+Package pdftex.def Info: Bilder/lit-konstanten.png  used on input line 134.
 (pdftex.def)             Requested size: 175.08061pt x 99.63951pt.
 (C:\Users\suter\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 ) (C:\Users\suter\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 )
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 142.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 144.
  (C:\Users\suter\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 142.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 144.
  [1
 
 {C:/Users/suter/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Bilder/verbotene_namen.png>]
@@ -1102,12 +1102,12 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 150.
+(scrartcl)              `\normalfont \sffamily ' on input line 152.
 
 <Bilder/sichtbarkeit_variablen.png, id=41, 699.36281pt x 126.4725pt>
 File: Bilder/sichtbarkeit_variablen.png Graphic file (type png)
 <use Bilder/sichtbarkeit_variablen.png>
-Package pdftex.def Info: Bilder/sichtbarkeit_variablen.png  used on input line 152.
+Package pdftex.def Info: Bilder/sichtbarkeit_variablen.png  used on input line 154.
 (pdftex.def)             Requested size: 389.07068pt x 70.36095pt.
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -1128,7 +1128,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 155.
+(scrartcl)              `\normalfont \sffamily ' on input line 157.
 
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -1149,12 +1149,33 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 175.
+(scrartcl)              `\normalfont \sffamily ' on input line 177.
+
+
+Class scrartcl Warning: deprecated old font command `\sf' used.
+(scrartcl)              You should note, that since 1994 LaTeX2e provides a
+(scrartcl)              new font selection scheme called NFSS2 with several
+(scrartcl)              new, combinable font commands. New KOMA-Script classes
+(scrartcl)              defined the old font commands like `\sf' only for
+(scrartcl)              compatibility with LaTeX 2.09 document styles of
+(scrartcl)              Script 2.0. These commands are deprecated and
+(scrartcl)              undocumented at least since 2003. Since 2013,
+(scrartcl)              KOMA-Script classes warned about soon removement of
+(scrartcl)              these deprecated commands. Now, after two decades of
+(scrartcl)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrartcl)              not work any longer. If loading a package results in
+(scrartcl)              this message you should contact the author of that
+(scrartcl)              package and ask him to replace the depracted font
+(scrartcl)              command `\sf', e.g., by `\normalfont \sffamily '.
+(scrartcl)              Otherwise you should reconfigure or replace the
+(scrartcl)              package. If you have used the old font command
+(scrartcl)              `\sf' yourself you should replace it, e.g., by
+(scrartcl)              `\normalfont \sffamily ' on input line 181.
 
 <Bilder/operatoren_prio.png, id=42, 313.9228pt x 269.50688pt>
 File: Bilder/operatoren_prio.png Graphic file (type png)
 <use Bilder/operatoren_prio.png>
-Package pdftex.def Info: Bilder/operatoren_prio.png  used on input line 177.
+Package pdftex.def Info: Bilder/operatoren_prio.png  used on input line 183.
 (pdftex.def)             Requested size: 311.25772pt x 267.23209pt.
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -1175,7 +1196,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 182.
+(scrartcl)              `\normalfont \sffamily ' on input line 188.
 
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -1196,10 +1217,10 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 194.
+(scrartcl)              `\normalfont \sffamily ' on input line 200.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--199
+Underfull \hbox (badness 10000) in paragraph at lines 201--205
 
  []
 
@@ -1222,7 +1243,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 213.
+(scrartcl)              `\normalfont \sffamily ' on input line 219.
 
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -1243,12 +1264,12 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 220.
+(scrartcl)              `\normalfont \sffamily ' on input line 226.
 
 <Bilder/forschleife.png, id=43, 690.32906pt x 216.81pt>
 File: Bilder/forschleife.png Graphic file (type png)
 <use Bilder/forschleife.png>
-Package pdftex.def Info: Bilder/forschleife.png  used on input line 222.
+Package pdftex.def Info: Bilder/forschleife.png  used on input line 228.
 (pdftex.def)             Requested size: 166.32603pt x 52.23726pt.
 [2 <./Bilder/lit-konstanten.png> <./Bilder/sichtbarkeit_variablen.png> <./Bilder/operatoren_prio.png>]
 
@@ -1270,12 +1291,12 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 229.
+(scrartcl)              `\normalfont \sffamily ' on input line 235.
 
-<Bilder/Switch.png, id=79, 666.99188pt x 304.88907pt>
+<Bilder/Switch.png, id=80, 666.99188pt x 304.88907pt>
 File: Bilder/Switch.png Graphic file (type png)
 <use Bilder/Switch.png>
-Package pdftex.def Info: Bilder/Switch.png  used on input line 231.
+Package pdftex.def Info: Bilder/Switch.png  used on input line 237.
 (pdftex.def)             Requested size: 166.32603pt x 76.02667pt.
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -1296,12 +1317,12 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 238.
+(scrartcl)              `\normalfont \sffamily ' on input line 244.
 
-<Bilder/dowhile.png, id=80, 676.02562pt x 261.22594pt>
+<Bilder/dowhile.png, id=81, 676.02562pt x 261.22594pt>
 File: Bilder/dowhile.png Graphic file (type png)
 <use Bilder/dowhile.png>
-Package pdftex.def Info: Bilder/dowhile.png  used on input line 240.
+Package pdftex.def Info: Bilder/dowhile.png  used on input line 246.
 (pdftex.def)             Requested size: 166.32603pt x 64.26996pt.
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -1322,20 +1343,20 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 247.
+(scrartcl)              `\normalfont \sffamily ' on input line 253.
 
-<Bilder/while1.png, id=81, 192.72pt x 222.07968pt>
+<Bilder/while1.png, id=82, 192.72pt x 222.07968pt>
 File: Bilder/while1.png Graphic file (type png)
 <use Bilder/while1.png>
-Package pdftex.def Info: Bilder/while1.png  used on input line 249.
+Package pdftex.def Info: Bilder/while1.png  used on input line 255.
 (pdftex.def)             Requested size: 87.5403pt x 100.87358pt.
-<Bilder/while2.png, id=82, 356.83313pt x 98.61844pt>
+<Bilder/while2.png, id=83, 356.83313pt x 98.61844pt>
 File: Bilder/while2.png Graphic file (type png)
 <use Bilder/while2.png>
-Package pdftex.def Info: Bilder/while2.png  used on input line 250.
+Package pdftex.def Info: Bilder/while2.png  used on input line 256.
 (pdftex.def)             Requested size: 87.5403pt x 24.19257pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--251
+Underfull \hbox (badness 10000) in paragraph at lines 255--257
 [][]
  []
 
@@ -1358,55 +1379,8 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 257.
+(scrartcl)              `\normalfont \sffamily ' on input line 263.
 
-
-Class scrartcl Warning: deprecated old font command `\sf' used.
-(scrartcl)              You should note, that since 1994 LaTeX2e provides a
-(scrartcl)              new font selection scheme called NFSS2 with several
-(scrartcl)              new, combinable font commands. New KOMA-Script classes
-(scrartcl)              defined the old font commands like `\sf' only for
-(scrartcl)              compatibility with LaTeX 2.09 document styles of
-(scrartcl)              Script 2.0. These commands are deprecated and
-(scrartcl)              undocumented at least since 2003. Since 2013,
-(scrartcl)              KOMA-Script classes warned about soon removement of
-(scrartcl)              these deprecated commands. Now, after two decades of
-(scrartcl)              LaTeX2e, NFSS2, and KOMA-Script these commands will
-(scrartcl)              not work any longer. If loading a package results in
-(scrartcl)              this message you should contact the author of that
-(scrartcl)              package and ask him to replace the depracted font
-(scrartcl)              command `\sf', e.g., by `\normalfont \sffamily '.
-(scrartcl)              Otherwise you should reconfigure or replace the
-(scrartcl)              package. If you have used the old font command
-(scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 265.
-
-
-Class scrartcl Warning: deprecated old font command `\sf' used.
-(scrartcl)              You should note, that since 1994 LaTeX2e provides a
-(scrartcl)              new font selection scheme called NFSS2 with several
-(scrartcl)              new, combinable font commands. New KOMA-Script classes
-(scrartcl)              defined the old font commands like `\sf' only for
-(scrartcl)              compatibility with LaTeX 2.09 document styles of
-(scrartcl)              Script 2.0. These commands are deprecated and
-(scrartcl)              undocumented at least since 2003. Since 2013,
-(scrartcl)              KOMA-Script classes warned about soon removement of
-(scrartcl)              these deprecated commands. Now, after two decades of
-(scrartcl)              LaTeX2e, NFSS2, and KOMA-Script these commands will
-(scrartcl)              not work any longer. If loading a package results in
-(scrartcl)              this message you should contact the author of that
-(scrartcl)              package and ask him to replace the depracted font
-(scrartcl)              command `\sf', e.g., by `\normalfont \sffamily '.
-(scrartcl)              Otherwise you should reconfigure or replace the
-(scrartcl)              package. If you have used the old font command
-(scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 266.
-
-<Bilder/nullpointer.png, id=83, 365.86688pt x 51.19125pt>
-File: Bilder/nullpointer.png Graphic file (type png)
-<use Bilder/nullpointer.png>
-Package pdftex.def Info: Bilder/nullpointer.png  used on input line 268.
-(pdftex.def)             Requested size: 369.61595pt x 51.71837pt.
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              You should note, that since 1994 LaTeX2e provides a
@@ -1428,25 +1402,72 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
 (scrartcl)              `\normalfont \sffamily ' on input line 271.
 
-<Bilder/referenzieren.png, id=84, 491.58656pt x 245.79327pt>
+
+Class scrartcl Warning: deprecated old font command `\sf' used.
+(scrartcl)              You should note, that since 1994 LaTeX2e provides a
+(scrartcl)              new font selection scheme called NFSS2 with several
+(scrartcl)              new, combinable font commands. New KOMA-Script classes
+(scrartcl)              defined the old font commands like `\sf' only for
+(scrartcl)              compatibility with LaTeX 2.09 document styles of
+(scrartcl)              Script 2.0. These commands are deprecated and
+(scrartcl)              undocumented at least since 2003. Since 2013,
+(scrartcl)              KOMA-Script classes warned about soon removement of
+(scrartcl)              these deprecated commands. Now, after two decades of
+(scrartcl)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrartcl)              not work any longer. If loading a package results in
+(scrartcl)              this message you should contact the author of that
+(scrartcl)              package and ask him to replace the depracted font
+(scrartcl)              command `\sf', e.g., by `\normalfont \sffamily '.
+(scrartcl)              Otherwise you should reconfigure or replace the
+(scrartcl)              package. If you have used the old font command
+(scrartcl)              `\sf' yourself you should replace it, e.g., by
+(scrartcl)              `\normalfont \sffamily ' on input line 272.
+
+<Bilder/nullpointer.png, id=84, 365.86688pt x 51.19125pt>
+File: Bilder/nullpointer.png Graphic file (type png)
+<use Bilder/nullpointer.png>
+Package pdftex.def Info: Bilder/nullpointer.png  used on input line 274.
+(pdftex.def)             Requested size: 369.61595pt x 51.71837pt.
+
+Class scrartcl Warning: deprecated old font command `\sf' used.
+(scrartcl)              You should note, that since 1994 LaTeX2e provides a
+(scrartcl)              new font selection scheme called NFSS2 with several
+(scrartcl)              new, combinable font commands. New KOMA-Script classes
+(scrartcl)              defined the old font commands like `\sf' only for
+(scrartcl)              compatibility with LaTeX 2.09 document styles of
+(scrartcl)              Script 2.0. These commands are deprecated and
+(scrartcl)              undocumented at least since 2003. Since 2013,
+(scrartcl)              KOMA-Script classes warned about soon removement of
+(scrartcl)              these deprecated commands. Now, after two decades of
+(scrartcl)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrartcl)              not work any longer. If loading a package results in
+(scrartcl)              this message you should contact the author of that
+(scrartcl)              package and ask him to replace the depracted font
+(scrartcl)              command `\sf', e.g., by `\normalfont \sffamily '.
+(scrartcl)              Otherwise you should reconfigure or replace the
+(scrartcl)              package. If you have used the old font command
+(scrartcl)              `\sf' yourself you should replace it, e.g., by
+(scrartcl)              `\normalfont \sffamily ' on input line 277.
+
+<Bilder/referenzieren.png, id=85, 491.58656pt x 245.79327pt>
 File: Bilder/referenzieren.png Graphic file (type png)
 <use Bilder/referenzieren.png>
-Package pdftex.def Info: Bilder/referenzieren.png  used on input line 274.
+Package pdftex.def Info: Bilder/referenzieren.png  used on input line 280.
 (pdftex.def)             Requested size: 182.09421pt x 91.04872pt.
-<Bilder/dereferenzieren.png, id=85, 549.55313pt x 260.09673pt>
+<Bilder/dereferenzieren.png, id=86, 549.55313pt x 260.09673pt>
 File: Bilder/dereferenzieren.png Graphic file (type png)
 <use Bilder/dereferenzieren.png>
-Package pdftex.def Info: Bilder/dereferenzieren.png  used on input line 274.
+Package pdftex.def Info: Bilder/dereferenzieren.png  used on input line 280.
 (pdftex.def)             Requested size: 192.37163pt x 91.04872pt.
 
-Overfull \hbox (9.39519pt too wide) in paragraph at lines 272--277
+Overfull \hbox (9.39519pt too wide) in paragraph at lines 278--283
 [] 
  []
 
-<Bilder/vergl-ref-deref.png, id=86, 438.13687pt x 216.05719pt>
+<Bilder/vergl-ref-deref.png, id=87, 438.13687pt x 216.05719pt>
 File: Bilder/vergl-ref-deref.png Graphic file (type png)
 <use Bilder/vergl-ref-deref.png>
-Package pdftex.def Info: Bilder/vergl-ref-deref.png  used on input line 279.
+Package pdftex.def Info: Bilder/vergl-ref-deref.png  used on input line 285.
 (pdftex.def)             Requested size: 194.53534pt x 95.9325pt.
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -1467,7 +1488,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 284.
+(scrartcl)              `\normalfont \sffamily ' on input line 290.
 
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -1488,12 +1509,12 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 300.
+(scrartcl)              `\normalfont \sffamily ' on input line 306.
 
-<Bilder/ptr_add-subtraction.png, id=87, 290.58563pt x 103.88812pt>
+<Bilder/ptr_add-subtraction.png, id=88, 290.58563pt x 103.88812pt>
 File: Bilder/ptr_add-subtraction.png Graphic file (type png)
 <use Bilder/ptr_add-subtraction.png>
-Package pdftex.def Info: Bilder/ptr_add-subtraction.png  used on input line 302.
+Package pdftex.def Info: Bilder/ptr_add-subtraction.png  used on input line 308.
 (pdftex.def)             Requested size: 198.97014pt x 71.13188pt.
 [3 <./Bilder/forschleife.png> <./Bilder/Switch.png> <./Bilder/dowhile.png> <./Bilder/while1.png> <./Bilder/while2.png> <./Bilder/nullpointer.png> <./Bilder/referenzieren.png> <./Bilder/dereferenzieren.png> <./Bilder/vergl-ref-deref.png>]
 
@@ -1515,18 +1536,18 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 308.
+(scrartcl)              `\normalfont \sffamily ' on input line 314.
 
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 314.
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 320.
 (C:\Users\suter\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
 File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 314.
-<Bilder/arr-mem-map.png, id=128, 380.17032pt x 58.71938pt>
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 320.
+<Bilder/arr-mem-map.png, id=129, 380.17032pt x 58.71938pt>
 File: Bilder/arr-mem-map.png Graphic file (type png)
 <use Bilder/arr-mem-map.png>
-Package pdftex.def Info: Bilder/arr-mem-map.png  used on input line 318.
+Package pdftex.def Info: Bilder/arr-mem-map.png  used on input line 324.
 (pdftex.def)             Requested size: 194.53534pt x 30.04771pt.
 
 
@@ -1548,7 +1569,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 321.
+(scrartcl)              `\normalfont \sffamily ' on input line 327.
 
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -1569,7 +1590,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 329.
+(scrartcl)              `\normalfont \sffamily ' on input line 335.
 
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -1590,12 +1611,12 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 340.
+(scrartcl)              `\normalfont \sffamily ' on input line 346.
 
-<Bilder/arr_mehrdimensional.png, id=129, 625.58719pt x 203.25937pt>
+<Bilder/arr_mehrdimensional.png, id=130, 625.58719pt x 203.25937pt>
 File: Bilder/arr_mehrdimensional.png Graphic file (type png)
 <use Bilder/arr_mehrdimensional.png>
-Package pdftex.def Info: Bilder/arr_mehrdimensional.png  used on input line 342.
+Package pdftex.def Info: Bilder/arr_mehrdimensional.png  used on input line 348.
 (pdftex.def)             Requested size: 262.70665pt x 85.35826pt.
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -1616,7 +1637,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 344.
+(scrartcl)              `\normalfont \sffamily ' on input line 350.
 
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -1637,12 +1658,12 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 354.
+(scrartcl)              `\normalfont \sffamily ' on input line 360.
 
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 359.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 365.
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 360.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 366.
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              You should note, that since 1994 LaTeX2e provides a
@@ -1662,22 +1683,22 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 363.
+(scrartcl)              `\normalfont \sffamily ' on input line 369.
 
-<Bilder/arr-ptr-zuweisung.png, id=130, 502.87875pt x 75.28125pt>
+<Bilder/arr-ptr-zuweisung.png, id=131, 502.87875pt x 75.28125pt>
 File: Bilder/arr-ptr-zuweisung.png Graphic file (type png)
 <use Bilder/arr-ptr-zuweisung.png>
-Package pdftex.def Info: Bilder/arr-ptr-zuweisung.png  used on input line 376.
+Package pdftex.def Info: Bilder/arr-ptr-zuweisung.png  used on input line 382.
 (pdftex.def)             Requested size: 380.14305pt x 56.9055pt.
 
-Overfull \hbox (12.32268pt too wide) in paragraph at lines 375--377
+Overfull \hbox (12.32268pt too wide) in paragraph at lines 381--383
 [] 
  []
 
-<Bilder/ptr-im-arr-stil.png, id=131, 536.75531pt x 84.315pt>
+<Bilder/ptr-im-arr-stil.png, id=132, 536.75531pt x 84.315pt>
 File: Bilder/ptr-im-arr-stil.png Graphic file (type png)
 <use Bilder/ptr-im-arr-stil.png>
-Package pdftex.def Info: Bilder/ptr-im-arr-stil.png  used on input line 378.
+Package pdftex.def Info: Bilder/ptr-im-arr-stil.png  used on input line 384.
 (pdftex.def)             Requested size: 362.26962pt x 56.9055pt.
 [4 <./Bilder/ptr_add-subtraction.png> <./Bilder/arr-mem-map.png> <./Bilder/arr_mehrdimensional.png> <./Bilder/arr-ptr-zuweisung.png>]
 
@@ -1699,12 +1720,12 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 381.
+(scrartcl)              `\normalfont \sffamily ' on input line 387.
 
-<Bilder/structs-bsp.png, id=177, 511.15968pt x 262.73157pt>
+<Bilder/structs-bsp.png, id=178, 511.15968pt x 262.73157pt>
 File: Bilder/structs-bsp.png Graphic file (type png)
 <use Bilder/structs-bsp.png>
-Package pdftex.def Info: Bilder/structs-bsp.png  used on input line 384.
+Package pdftex.def Info: Bilder/structs-bsp.png  used on input line 390.
 (pdftex.def)             Requested size: 350.16122pt x 179.97804pt.
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -1725,7 +1746,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 387.
+(scrartcl)              `\normalfont \sffamily ' on input line 393.
 
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -1746,7 +1767,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 389.
+(scrartcl)              `\normalfont \sffamily ' on input line 395.
 
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -1767,7 +1788,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 402.
+(scrartcl)              `\normalfont \sffamily ' on input line 408.
 
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -1788,7 +1809,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 417.
+(scrartcl)              `\normalfont \sffamily ' on input line 423.
 
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -1809,7 +1830,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 434.
+(scrartcl)              `\normalfont \sffamily ' on input line 440.
 
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -1830,7 +1851,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 443.
+(scrartcl)              `\normalfont \sffamily ' on input line 449.
 
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -1851,7 +1872,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 467.
+(scrartcl)              `\normalfont \sffamily ' on input line 473.
 
 [5 <./Bilder/ptr-im-arr-stil.png> <./Bilder/structs-bsp.png>]
 
@@ -1873,10 +1894,10 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 492.
+(scrartcl)              `\normalfont \sffamily ' on input line 498.
 
 
-Overfull \hbox (3.15753pt too wide) in paragraph at lines 501--502
+Overfull \hbox (3.15753pt too wide) in paragraph at lines 507--508
 [][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -1899,7 +1920,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 523.
+(scrartcl)              `\normalfont \sffamily ' on input line 529.
 
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -1920,7 +1941,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 533.
+(scrartcl)              `\normalfont \sffamily ' on input line 539.
 
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -1941,7 +1962,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 555.
+(scrartcl)              `\normalfont \sffamily ' on input line 561.
 
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -1962,7 +1983,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 556.
+(scrartcl)              `\normalfont \sffamily ' on input line 562.
 
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -1983,7 +2004,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 587.
+(scrartcl)              `\normalfont \sffamily ' on input line 593.
 
 [6]
 
@@ -2005,7 +2026,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 613.
+(scrartcl)              `\normalfont \sffamily ' on input line 619.
 
 ) [7] (ProgC.aux)
  ***********
@@ -2016,17 +2037,17 @@ Package rerunfilecheck Info: File `ProgC.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28656 strings out of 474824
- 538594 string characters out of 5750976
+ 28658 strings out of 474824
+ 538619 string characters out of 5750976
  2023043 words of memory out of 5000000
- 49892 multiletter control sequences out of 15000+600000
+ 49893 multiletter control sequences out of 15000+600000
  572490 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,10n,107p,10984b,2241s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\suter\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti0800.pk> <C:\Users\suter\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.pk><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on ProgC.pdf (7 pages, 993753 bytes).
+Output written on ProgC.pdf (7 pages, 994857 bytes).
 PDF statistics:
- 585 PDF objects out of 1000 (max. 8388607)
- 242 named destinations out of 1000 (max. 500000)
- 476 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 589 PDF objects out of 1000 (max. 8388607)
+ 243 named destinations out of 1000 (max. 500000)
+ 484 words of extra memory for PDF output out of 10000 (max. 10000000)
 

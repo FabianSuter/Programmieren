@@ -102,6 +102,8 @@
 				$\cdot$ unsigned & 0...$(2^n-1)$               & n=8 : 0...255 \\
 				$\cdot$ signed   & $-2^{n-1}...+(2^{n-1}-1)$ & n=8 : -128...+127 \\
 			\end{tabular}
+			\\
+			\textbf{Stellenbreite:} \verb|%7.2f| $\rightarrow$ \verb*|    .  |, \verb|%4d| $\rightarrow$ \verb*|    |(res. immer 4 Zahlenbreiten)
 
 		\subsubsection{Typumwandlung}
 			\verb|float f = 41.7;|\\
@@ -171,6 +173,10 @@ enum{
 				(z.B. \verb|x?"wahr":"unwahr"|)
 			\end{itemize}
 		\end{itemize}
+
+		\subsubsection{Modulo}
+			\verb|%| gibt den Restwert einer Rechnung aus\\
+			\verb|10 % 3 = 1, 20 % 7 = 6|
 
 		\subsubsection{Priorität \& Assoziativität}
 			\begin{minipage}{0.8\linewidth}
@@ -530,7 +536,7 @@ faku(unsigned int n){
 			\verb|#error(Nachricht)| & Bricht den Compile-Vorgang ab \\ 
 		\end{tabular}
 
-		\subsubsection{Beispiele}
+		\subsubsection{Beispiel}
 			\begin{lstlisting}[language=C]
 #include <stdio.h>
 
