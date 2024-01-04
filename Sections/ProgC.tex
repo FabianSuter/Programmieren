@@ -56,7 +56,7 @@
 		\paragraph{ASCII (7-Bit)}
 			
 			Ordnet gängigen Schriftzeichen einen Zahlenwert zu, um diese in einem Digitalrechner präsentieren zu können.
-			Die Tabelle ist wichtig, um für geg. Schriftzeichen den repräsentierten Zahlenwert zu ermitteln (und umgekehrt).
+			Die Tabelle ist wichtig, um für geg. Schriftzeichen den in der Maschine repräsentierten Zahlenwert zu ermitteln (und umgekehrt).
 
 			Nachfolger: Unicode (8-, 16-, 32-Bit)
 	
@@ -148,7 +148,7 @@ enum{
 }
 				\end{lstlisting}
 			\end{minipage}
-		
+
 	\subsection{Variablen}
 		\begin{minipage}{1\linewidth}
 			\includegraphics[width=1\linewidth]{Bilder/sichtbarkeit_variablen.png}
@@ -217,37 +217,31 @@ printf("%d\n", a | b); // 1001'0000
 				\end{lstlisting}
 
 	\subsection{Schleifen}
-		\begin{itemize}
-			\item \verb|for|-Schleife: Für Zählschleifen, bzw. wenn die Anzahl Durchläufe bekannt ist
-			\item \verb|do...while|-Schleife: Keine Zählschleife, min. 1 Durchlauf
-			\item \verb|while|-Schleife: In allen anderen Fällen	
-		\end{itemize}
-
 		\subsubsection{For-Schleife}
-			\begin{minipage}{.45\linewidth}
+			\begin{minipage}{.7\linewidth}
 				\includegraphics[width=0.95\linewidth]{Bilder/forschleife.png}
 			\end{minipage}
 			\hfill
-			\begin{minipage}{.5\linewidth}
-				For-Schleife
+			\begin{minipage}{0.3\linewidth}
+				Für Zählschleifen, bzw. wenn die Anzahl Durchläufe bekannt ist
 			\end{minipage}
 
 		\subsubsection{Switch-Schleife}
-			\begin{minipage}{.45\linewidth}
+			\begin{minipage}{.6\linewidth}
 				\includegraphics[width=0.95\linewidth]{Bilder/Switch.png}
 			\end{minipage}
 			\hfill
-			\begin{minipage}{.5\linewidth}
-				Switch-Schleife
+			\begin{minipage}{.4\linewidth}
+				Für Anwendungen, wo eine Überprüfung mehrere Cases haben kann, z.B. Abfrage eines Zustandes (Standby, Off, Idle, Run, ...)
 			\end{minipage}
 
 		\subsubsection{Do-While-Schleife}
-			\begin{minipage}{.45\linewidth}
+			\begin{minipage}{.7\linewidth}
 				\includegraphics[width=0.95\linewidth]{Bilder/dowhile.png}
 			\end{minipage}
 			\hfill
-			\begin{minipage}{.5\linewidth}
-				Do-While-Schleife
+			\begin{minipage}{.3\linewidth}
+				Keine Zählschleife, das Programm führt min. 1 Durchlauf aus und arbeitet solange Ausdruck = true
 			\end{minipage}
 
 		\subsubsection{While-Schleife}
@@ -257,7 +251,7 @@ printf("%d\n", a | b); // 1001'0000
 			\end{minipage}
 			\hfill
 			\begin{minipage}{.5\linewidth}
-				While-Schleife
+				Für alle anderen Fälle. Spezialfall: \verb|while(1)| ist ein konstanter Loop im Programm
 			\end{minipage}
 
 		\subsubsection{Sprunganweisungen}
@@ -391,7 +385,8 @@ for(int i = 0; i < groesse; ++i)
 		\end{minipage}	
 
 	\subsection{Strings und Speicher}
-		Für alle Funktionen in diesem Kapitel: \verb|#include <string.h>|
+		Für alle Funktionen in diesem Kapitel: \verb|#include <string.h>|\\
+		\textbf{Vorsicht:} Jeder Charakter im String benötigt je ein Byte, die \verb|'\0'|-Terminierung ein zusätzliches Byte
 		\subsubsection{Strings kopieren}
 			\begin{lstlisting}[language=C]
 char* strcpy(char* dest, const char* src);
@@ -558,6 +553,38 @@ int main(){
 }
 			\end{lstlisting}
 
+	\subsection{Trivia}
+		\subsubsection{Funktionsprototypen}
+			Funktionsprototypen legen die Schnittstelle ener Funktion fest.\\
+			Sie sind zwingend erforderlich, wenn Funktionen vor ihrer Definition aufgerufen werden.
+		
+		\subsubsection{Call-by-Reference vs. Call-by-Value}
+			\begin{tabular}{|ll|l|}
+				\hline
+				\textbf{Call-by-Reference:} & & \textbf{Call-by-Value:}\\
+				\hline
+				An eine zu rufende Funktion werden Pointer auf & & An eine zu rufende Funktion werden \\
+				Variablen übergeben, an denen Werte stehen können & & Werte übergeben \\
+				\verb|int s1 = 3;| & & \verb|int summe = add(3,7);|\\
+				\verb|int s2 = 7;| & & \\
+				\verb|int summe;| & & \\
+				\verb|add(&s1, &s2, &summe);| & & \\
+				\hline
+			\end{tabular}
+			
+		\subsubsection{C-Compiler}
+			Der C-Compiler überprüft den Quelltext auf syntaktische Korrektheit.\\
+			Zusätzlich übersetzt er den Quelltext in Maschinencode für eine bestimmte Zielplattform.
+
+		\subsubsection{Gleitpunktzahlen}
+			Eine Gleitpunkzahl ist ein Datentyp in Exponentialdarstellung, bestehend aus Vorzeichen, Mantisse und Exponent.
+			Diese drei Bestandteile werden im Computer separat im Speicher binär dargestellt, gem. Standard IEEE 754.
+			In C gibt es hierfür die Datentypen \verb|float| und \verb|double|.
+
+			\textbf{Vorteil:} sehr grosser Wertebereich von $-\infty$ bis $\infty$\\
+			\textbf{Nachteil:} Rundungsfehler treten zwangsläufig auf und sind sehr schwer abschätzbar.
+			Sie sollten daher nie auf Gleichheit geprüft werden!
+		
 	\subsection{Code-Snippets}
 		\subsubsection{Array und Pointer 1}
 			\begin{lstlisting}[language=C]
@@ -628,3 +655,98 @@ for(int i = 0; i < 8; i++){
 }
 return 0;
 			\end{lstlisting}
+
+		\subsubsection{Drehmoment berechnen}
+			\textbf{Programm:}
+			\begin{lstlisting}[language=C]
+#include<stdio.h>
+int main(){
+	float kraft;
+	float abstand;
+	printf("Kraft F in N: ");
+	scanf("%f", &kraft);
+	printf("Abstand s in m: ");
+	scanf("%f", &abstand);
+	if(abstand < 0.0f){
+		printf("Fehler: Abstand ist negativ!");
+		return -1;
+	}
+	else{
+		printf("Das Drehmoment ist: %f Nm\n", kraft*abstand);
+		return 0;
+	}
+}
+			\end{lstlisting}
+
+			\textbf{Ausgabe:}\\
+			\verb|Kraft F in N:| -17\\
+			\verb|Abstand s in m: | 0.5\\
+			\verb|Das Drehmoment ist: -8.500 Nm|
+
+		\subsubsection{Pointer \& Memorymaps}
+			\begin{lstlisting}[language=C]
+#include <stdio.h>
+void geheim(double* p, double z){
+	z  = 2.0 * z;
+	*p = z;
+}
+
+int main(void){
+	double u = 5.0;
+	double v = 7.0;
+	geheim(&u, v);
+	printf("u= %f, v= %f\n", u, v);
+	return 0;
+}
+			\end{lstlisting}
+			
+			\textbf{Memorymap kurz vor \textit{geheim}-Aufruf}\\
+				\begin{minipage}{0.9\linewidth}
+					\includegraphics[width=1\linewidth]{Bilder/memmap-vor-geheim.png}
+				\end{minipage}
+
+			\textbf{Memorymap kurz nach \textit{geheim}-Aufruf}\\
+				\begin{minipage}{0.9\linewidth}
+					\includegraphics[width=1\linewidth]{Bilder/memmap-aufruf-geheim.png}
+				\end{minipage}
+
+			\textbf{Memorymap kurz vor \textit{geheim}-Verlassen}\\
+				\begin{minipage}{0.9\linewidth}
+					\includegraphics[width=1\linewidth]{Bilder/memmap-vor-verlassen.png}
+				\end{minipage}
+
+			\textbf{Memorymap kurz nach \textit{geheim}-Verlassen}\\
+				\begin{minipage}{0.9\linewidth}
+					\includegraphics[width=1\linewidth]{Bilder/memmap-nach-verlassen.png}
+				\end{minipage}
+
+			\textbf{Ausgabe des Programms:}\\
+				\verb*|u= 14.0, v= 7.0<newline>|
+
+		\subsubsection{Grösster gemeinsamer Teiler}
+			\begin{minipage}{0.45\linewidth}
+				\begin{lstlisting}[language=C]
+typedef unsigned int uint;
+uint func(uint m, uint n){
+	uint r;
+	uint h;
+	do{
+		if(m<n){
+			h=m;
+			m=n;
+			n=h;
+		}
+		r=m%n;
+		if(r!=0){
+			m=n;
+			n=r;
+		}
+	}while(r!=0);
+	return n;
+}
+				\end{lstlisting}
+			\end{minipage}
+			\hfill
+			\begin{minipage}{0.5\linewidth}
+				\includegraphics[width=1\linewidth]{Bilder/snippets-ggt.png}
+			\end{minipage}
