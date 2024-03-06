@@ -56,6 +56,43 @@
         \subsubsection{Flags}
             \includegraphics[width=0.95\linewidth]{Bilder/cpp_flags-iostream.png}
 
+    \subsection{Klassen, Methoden und Objekte}
+        Objekte verfügen über Attribute, Methoden und eine Identität.
+
+        Ähnliche Objekte werden in Klassen zusammengefasst.
+
+        Klassen können auch mit \verb|struct| definiert werden. \verb|struct| definiert alles \textbf{public}, \verb|class| alles \textbf{private}
+
+        \subsubsection{Klassen}
+            Bsp: \verb|drink.h| \\ %UML-Generator: https://app.smartdraw.com/editor.aspx?templateId=3f94c5ba-46fb-46ac-80e2-8b13581b08db&flags=128#depoId=55119816&credID=-60756356
+            \begin{minipage}{0.45\linewidth}
+                \includegraphics[width=0.95\linewidth]{Bilder/cpp_klassen-hfile-bsp.png}
+            \end{minipage}
+            \hfill
+            \begin{minipage}{0.3\linewidth}
+                \includegraphics[width=0.95\linewidth]{Bilder/cpp_klassen-hfile-uml.png}
+            \end{minipage}
+            \begin{minipage}{0.2\linewidth}
+                \begin{itemize}
+                    \item + public
+                    \item - private
+                    \item \verb|#| protected
+                \end{itemize}
+            \end{minipage}
+            
+            Inkl. Include-Guard für das h-File, nebenan das UML-Diagramm
+
+        \subsubsection{Methoden}
+            Bsp: \verb|drink.cpp| \\
+            \includegraphics[width=0.7\linewidth]{Bilder/cpp_klassen-hfile-methoden.png}
+            
+            \textit{Wichtig:} h-Files werden mit $".."$ eingegliedert
+            \\
+            \textbf{Objekte}
+            
+            \includegraphics[width=0.7\linewidth]{Bilder/cpp_klassen-objekte.png}
+
+
     \subsection{Operatoren und Operanden}
 
         \subsubsection{Logisch vs. bitweise Operatoren}

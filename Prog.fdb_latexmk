@@ -1,10 +1,14 @@
 # Fdb version 4
-["pdflatex"] 1709716214 "c:/Users/suter/OneDrive - OST/OST/Formelsammlung/ProgC/Prog.tex" "Prog.pdf" "Prog" 1709716217 0
+["pdflatex"] 1709719423 "c:/Users/suter/OneDrive - OST/OST/Formelsammlung/ProgC/Prog.tex" "Prog.pdf" "Prog" 1709719426 0
   "Bilder/Switch.png" 1702991444 65945 365076ba49911313286e0c765caad66a ""
   "Bilder/arr-mem-map.png" 1704279359 7349 add3e3df5d3e167ded9ea67df5619b50 ""
   "Bilder/arr-ptr-zuweisung.png" 1704281883 33084 46de7d8210df75fb48325aa5a7b4b125 ""
   "Bilder/arr_mehrdimensional.png" 1704288108 44412 cc037cd61ecf69f31102def8b3daeff0 ""
   "Bilder/cpp_flags-iostream.png" 1709716136 140480 90b02f3e8db49db2d56a56294d6de298 ""
+  "Bilder/cpp_klassen-hfile-bsp.png" 1709717390 38471 92bfb6c8b951efb7f53c93dd712dbba4 ""
+  "Bilder/cpp_klassen-hfile-methoden.png" 1709718325 61313 932cfa5db8f5e946860d09108debd584 ""
+  "Bilder/cpp_klassen-hfile-uml.png" 1709717435 17693 da924954f0dd4efb038e2e1307a4c2f7 ""
+  "Bilder/cpp_klassen-objekte.png" 1709718789 21080 5c798cb3be75e7af2a1b05402909ab4c ""
   "Bilder/dereferenzieren.png" 1704277580 29818 2af575ff996fa49bdda49629283fc952 ""
   "Bilder/dowhile.png" 1702991670 51316 a3b991d6fbc6fa5a11c5e92ef3329d32 ""
   "Bilder/forschleife.png" 1704364411 62242 bd9fca15288c45b67a4f554e673ccdfd ""
@@ -239,11 +243,11 @@
   "C:/Users/suter/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1686255640 32515 51caec75eda9c8890135f12f1a4eddc3 ""
   "C:/Users/suter/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/suter/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "Prog.aux" 1709716216 26706 a80575b81c06ceffef548eced1b41a03 "pdflatex"
-  "Prog.out" 1709716215 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Prog.aux" 1709719426 27825 2c892cff875379192b26f649e6725b70 "pdflatex"
+  "Prog.out" 1709719424 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   "Prog.tex" 1708597484 3126 5027e70437b8bedd433229e64dd6a922 ""
   "Sections/ProgC.tex" 1704378940 26903 0cfc6f885269013307270dcdf91d073a ""
-  "Sections/ProgCPP.tex" 1709716211 3163 c6c7a3efd9525c58e3e64facf9255f60 ""
+  "Sections/ProgCPP.tex" 1709719423 4804 2b692383429b3668f1bbe65e2ed0a67c ""
   "c:/Users/suter/OneDrive - OST/OST/Formelsammlung/ProgC/Prog.tex" 1708597484 3126 5027e70437b8bedd433229e64dd6a922 ""
   (generated)
   "Prog.aux"
