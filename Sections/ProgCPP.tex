@@ -92,6 +92,54 @@
             
             \includegraphics[width=0.7\linewidth]{Bilder/cpp_klassen-objekte.png}
 
+    \subsection{Make}
+        \verb|Make| dient als Tool, um Compilerdurchläufe zu optimieren.
+        Das Tool kompiliert nur Files neu, welche seit dem letzten Durchlauf geändert wurden.
+
+        Sofern nicht anders angegeben, beginnt \verb|make| mit dem obersten Befehl.
+
+        \begin{minipage}{0.5\linewidth}
+            \textbf{Makefile}
+            \begin{lstlisting}[language=C++]
+#Variablen
+CXX = clang++
+CXXFLAGS = -Wall -c
+LDFLAGS = -o
+BIN = vektor3d
+OBJS = vektor3d.o main.o
+
+all: $(BIN)
+
+#Alle .cpp in .o wandeln
+%.o: %.cpp
+	$(CXX) $(CXXFLAGS) $<
+
+$(BIN): $(OBJS)
+	$(CXX) $(LDFLAGS) $@ $^
+
+clean:
+	rm -f $(BIN) $(OBJS) vektor3d.exe
+
+.PHONY: clean all
+            \end{lstlisting}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.45\linewidth}
+            \textbf{Befehle}:\\
+            \verb|<Target>: <Dependency1> <Dependency2> ...|\\
+            \textbf{Platzhalter}
+            \begin{itemize}
+                \item \verb|$@|: Dateiname des Targets
+                \item \verb|$^|: Dateiname aller Dependencies
+                \item \verb|$<|: Dateiname der ersten Dependency
+                \item \verb|#| : Für Kommentare
+                \item \verb|%| : Für beliebiges Target
+            \end{itemize}
+
+            Phony dient zur Kennzeichnung von Befehlen ohne Output
+        \end{minipage}
+
+
 
     \subsection{Operatoren und Operanden}
 

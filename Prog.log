@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.25)  6 MAR 2024 11:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.10.25)  7 MAR 2024 14:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2494,7 +2494,31 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 96.
+(scrartcl)              `\normalfont \sffamily ' on input line 95.
+
+(C:\Users\suter\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+
+Class scrartcl Warning: deprecated old font command `\sf' used.
+(scrartcl)              You should note, that since 1994 LaTeX2e provides a
+(scrartcl)              new font selection scheme called NFSS2 with several
+(scrartcl)              new, combinable font commands. New KOMA-Script classes
+(scrartcl)              defined the old font commands like `\sf' only for
+(scrartcl)              compatibility with LaTeX 2.09 document styles of
+(scrartcl)              Script 2.0. These commands are deprecated and
+(scrartcl)              undocumented at least since 2003. Since 2013,
+(scrartcl)              KOMA-Script classes warned about soon removement of
+(scrartcl)              these deprecated commands. Now, after two decades of
+(scrartcl)              LaTeX2e, NFSS2, and KOMA-Script these commands will
+(scrartcl)              not work any longer. If loading a package results in
+(scrartcl)              this message you should contact the author of that
+(scrartcl)              package and ask him to replace the depracted font
+(scrartcl)              command `\sf', e.g., by `\normalfont \sffamily '.
+(scrartcl)              Otherwise you should reconfigure or replace the
+(scrartcl)              package. If you have used the old font command
+(scrartcl)              `\sf' yourself you should replace it, e.g., by
+(scrartcl)              `\normalfont \sffamily ' on input line 144.
 
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -2515,12 +2539,10 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 98.
+(scrartcl)              `\normalfont \sffamily ' on input line 146.
 
-(C:\Users\suter\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
-Underfull \hbox (badness 10000) in paragraph at lines 99--103
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--151
 
  []
 
@@ -2543,7 +2565,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 111.
+(scrartcl)              `\normalfont \sffamily ' on input line 159.
 
 
 Class scrartcl Warning: deprecated old font command `\sf' used.
@@ -2564,7 +2586,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              Otherwise you should reconfigure or replace the
 (scrartcl)              package. If you have used the old font command
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
-(scrartcl)              `\normalfont \sffamily ' on input line 113.
+(scrartcl)              `\normalfont \sffamily ' on input line 161.
 
 ) [10 <./Bilder/cpp_klassen-hfile-methoden.png> <./Bilder/cpp_klassen-objekte.png>] (Prog.aux)
  ***********
@@ -2575,17 +2597,17 @@ Package rerunfilecheck Info: File `Prog.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28935 strings out of 474824
- 543955 string characters out of 5750976
+ 29002 strings out of 474824
+ 544721 string characters out of 5750976
  2030043 words of memory out of 5000000
- 50074 multiletter control sequences out of 15000+600000
+ 50119 multiletter control sequences out of 15000+600000
  572490 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,10n,107p,10983b,2241s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\suter\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti0800.pk> <C:\Users\suter\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.pk><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Prog.pdf (10 pages, 1208907 bytes).
+Output written on Prog.pdf (10 pages, 1215222 bytes).
 PDF statistics:
- 792 PDF objects out of 1000 (max. 8388607)
- 333 named destinations out of 1000 (max. 500000)
- 710 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 822 PDF objects out of 1000 (max. 8388607)
+ 355 named destinations out of 1000 (max. 500000)
+ 718 words of extra memory for PDF output out of 10000 (max. 10000000)
 
