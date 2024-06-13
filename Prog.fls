@@ -1,6 +1,6 @@
-PWD c:\Users\suter\OneDrive - OST\OST\Formelsammlung\ProgC
+PWD c:\Users\suter\OneDrive - OST\OST\Formelsammlung\ProgC_CPP
 INPUT C:\Users\suter\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\suter\OneDrive - OST\OST\Formelsammlung\ProgC\Prog.tex
+INPUT c:\Users\suter\OneDrive - OST\OST\Formelsammlung\ProgC_CPP\Prog.tex
 OUTPUT Prog.log
 INPUT C:\Users\suter\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrartcl.cls
 INPUT C:\Users\suter\AppData\Local\Programs\MiKTeX\tex\latex\koma-script\scrartcl.cls

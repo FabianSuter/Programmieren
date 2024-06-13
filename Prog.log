@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.17)  10 JUN 2024 09:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.17)  13 JUN 2024 11:19
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/suter/OneDrive - OST/OST/Formelsammlung/ProgC/Prog.tex"
-(c:/Users/suter/OneDrive - OST/OST/Formelsammlung/ProgC/Prog.tex
+**"c:/Users/suter/OneDrive - OST/OST/Formelsammlung/ProgC_CPP/Prog.tex"
+(c:/Users/suter/OneDrive - OST/OST/Formelsammlung/ProgC_CPP/Prog.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
 (C:\Users\suter\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrartcl.cls
@@ -952,6 +952,11 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              `\normalfont \sffamily ' on input line 21.
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 51--60
+
+ []
+
+
 Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              You should note, that since 1994 LaTeX2e provides a
 (scrartcl)              new font selection scheme called NFSS2 with several
@@ -1106,7 +1111,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
 (scrartcl)              `\normalfont \sffamily ' on input line 152.
 
-<Bilder/sichtbarkeit_variablen.png, id=41, 699.36281pt x 126.4725pt>
+<Bilder/sichtbarkeit_variablen.png, id=39, 699.36281pt x 126.4725pt>
 File: Bilder/sichtbarkeit_variablen.png Graphic file (type png)
 <use Bilder/sichtbarkeit_variablen.png>
 Package pdftex.def Info: Bilder/sichtbarkeit_variablen.png  used on input line 154.
@@ -1174,7 +1179,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
 (scrartcl)              `\normalfont \sffamily ' on input line 181.
 
-<Bilder/operatoren_prio.png, id=42, 313.9228pt x 269.50688pt>
+<Bilder/operatoren_prio.png, id=40, 313.9228pt x 269.50688pt>
 File: Bilder/operatoren_prio.png Graphic file (type png)
 <use Bilder/operatoren_prio.png>
 Package pdftex.def Info: Bilder/operatoren_prio.png  used on input line 183.
@@ -1268,7 +1273,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
 (scrartcl)              `\normalfont \sffamily ' on input line 220.
 
-<Bilder/forschleife.png, id=43, 662.85141pt x 205.5178pt>
+<Bilder/forschleife.png, id=41, 662.85141pt x 205.5178pt>
 File: Bilder/forschleife.png Graphic file (type png)
 <use Bilder/forschleife.png>
 Package pdftex.def Info: Bilder/forschleife.png  used on input line 222.
@@ -1300,7 +1305,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
 (scrartcl)              `\normalfont \sffamily ' on input line 229.
 
-<Bilder/Switch.png, id=80, 666.99188pt x 304.88907pt>
+<Bilder/Switch.png, id=78, 666.99188pt x 304.88907pt>
 File: Bilder/Switch.png Graphic file (type png)
 <use Bilder/Switch.png>
 Package pdftex.def Info: Bilder/Switch.png  used on input line 231.
@@ -1331,7 +1336,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
 (scrartcl)              `\normalfont \sffamily ' on input line 238.
 
-<Bilder/dowhile.png, id=81, 676.02562pt x 261.22594pt>
+<Bilder/dowhile.png, id=79, 676.02562pt x 261.22594pt>
 File: Bilder/dowhile.png Graphic file (type png)
 <use Bilder/dowhile.png>
 Package pdftex.def Info: Bilder/dowhile.png  used on input line 240.
@@ -1362,12 +1367,12 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
 (scrartcl)              `\normalfont \sffamily ' on input line 247.
 
-<Bilder/while1.png, id=82, 192.72pt x 222.07968pt>
+<Bilder/while1.png, id=80, 192.72pt x 222.07968pt>
 File: Bilder/while1.png Graphic file (type png)
 <use Bilder/while1.png>
 Package pdftex.def Info: Bilder/while1.png  used on input line 249.
 (pdftex.def)             Requested size: 87.5403pt x 100.87358pt.
-<Bilder/while2.png, id=83, 356.83313pt x 98.61844pt>
+<Bilder/while2.png, id=81, 356.83313pt x 98.61844pt>
 File: Bilder/while2.png Graphic file (type png)
 <use Bilder/while2.png>
 Package pdftex.def Info: Bilder/while2.png  used on input line 250.
@@ -1440,7 +1445,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
 (scrartcl)              `\normalfont \sffamily ' on input line 266.
 
-<Bilder/nullpointer.png, id=84, 365.86688pt x 51.19125pt>
+<Bilder/nullpointer.png, id=82, 365.86688pt x 51.19125pt>
 File: Bilder/nullpointer.png Graphic file (type png)
 <use Bilder/nullpointer.png>
 Package pdftex.def Info: Bilder/nullpointer.png  used on input line 268.
@@ -1466,12 +1471,12 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
 (scrartcl)              `\normalfont \sffamily ' on input line 271.
 
-<Bilder/referenzieren.png, id=85, 491.58656pt x 245.79327pt>
+<Bilder/referenzieren.png, id=83, 491.58656pt x 245.79327pt>
 File: Bilder/referenzieren.png Graphic file (type png)
 <use Bilder/referenzieren.png>
 Package pdftex.def Info: Bilder/referenzieren.png  used on input line 274.
 (pdftex.def)             Requested size: 182.09421pt x 91.04872pt.
-<Bilder/dereferenzieren.png, id=86, 549.55313pt x 260.09673pt>
+<Bilder/dereferenzieren.png, id=84, 549.55313pt x 260.09673pt>
 File: Bilder/dereferenzieren.png Graphic file (type png)
 <use Bilder/dereferenzieren.png>
 Package pdftex.def Info: Bilder/dereferenzieren.png  used on input line 274.
@@ -1481,7 +1486,7 @@ Overfull \hbox (9.39519pt too wide) in paragraph at lines 272--277
 [] 
  []
 
-<Bilder/vergl-ref-deref.png, id=87, 438.13687pt x 216.05719pt>
+<Bilder/vergl-ref-deref.png, id=85, 438.13687pt x 216.05719pt>
 File: Bilder/vergl-ref-deref.png Graphic file (type png)
 <use Bilder/vergl-ref-deref.png>
 Package pdftex.def Info: Bilder/vergl-ref-deref.png  used on input line 279.
@@ -1529,7 +1534,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
 (scrartcl)              `\normalfont \sffamily ' on input line 300.
 
-<Bilder/ptr_add-subtraction.png, id=113, 290.58563pt x 103.88812pt>
+<Bilder/ptr_add-subtraction.png, id=111, 290.58563pt x 103.88812pt>
 File: Bilder/ptr_add-subtraction.png Graphic file (type png)
 <use Bilder/ptr_add-subtraction.png>
 Package pdftex.def Info: Bilder/ptr_add-subtraction.png  used on input line 302.
@@ -1561,7 +1566,7 @@ File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <8> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 314.
-<Bilder/arr-mem-map.png, id=114, 380.17032pt x 58.71938pt>
+<Bilder/arr-mem-map.png, id=112, 380.17032pt x 58.71938pt>
 File: Bilder/arr-mem-map.png Graphic file (type png)
 <use Bilder/arr-mem-map.png>
 Package pdftex.def Info: Bilder/arr-mem-map.png  used on input line 318.
@@ -1630,7 +1635,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
 (scrartcl)              `\normalfont \sffamily ' on input line 340.
 
-<Bilder/arr_mehrdimensional.png, id=115, 625.58719pt x 203.25937pt>
+<Bilder/arr_mehrdimensional.png, id=113, 625.58719pt x 203.25937pt>
 File: Bilder/arr_mehrdimensional.png Graphic file (type png)
 <use Bilder/arr_mehrdimensional.png>
 Package pdftex.def Info: Bilder/arr_mehrdimensional.png  used on input line 342.
@@ -1703,7 +1708,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              `\normalfont \sffamily ' on input line 363.
 
 [4 <./Bilder/vergl-ref-deref.png> <./Bilder/ptr_add-subtraction.png> <./Bilder/arr-mem-map.png> <./Bilder/arr_mehrdimensional.png>]
-<Bilder/arr-ptr-zuweisung.png, id=174, 502.87875pt x 75.28125pt>
+<Bilder/arr-ptr-zuweisung.png, id=172, 502.87875pt x 75.28125pt>
 File: Bilder/arr-ptr-zuweisung.png Graphic file (type png)
 <use Bilder/arr-ptr-zuweisung.png>
 Package pdftex.def Info: Bilder/arr-ptr-zuweisung.png  used on input line 376.
@@ -1713,7 +1718,7 @@ Overfull \hbox (12.32268pt too wide) in paragraph at lines 375--377
 [] 
  []
 
-<Bilder/ptr-im-arr-stil.png, id=175, 536.75531pt x 84.315pt>
+<Bilder/ptr-im-arr-stil.png, id=173, 536.75531pt x 84.315pt>
 File: Bilder/ptr-im-arr-stil.png Graphic file (type png)
 <use Bilder/ptr-im-arr-stil.png>
 Package pdftex.def Info: Bilder/ptr-im-arr-stil.png  used on input line 378.
@@ -1739,7 +1744,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
 (scrartcl)              `\normalfont \sffamily ' on input line 381.
 
-<Bilder/structs-bsp.png, id=176, 511.15968pt x 262.73157pt>
+<Bilder/structs-bsp.png, id=174, 511.15968pt x 262.73157pt>
 File: Bilder/structs-bsp.png Graphic file (type png)
 <use Bilder/structs-bsp.png>
 Package pdftex.def Info: Bilder/structs-bsp.png  used on input line 384.
@@ -2193,22 +2198,22 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
 (scrartcl)              `\normalfont \sffamily ' on input line 686.
 
-<Bilder/memmap-vor-geheim.png, id=347, 211.54031pt x 31.61812pt>
+<Bilder/memmap-vor-geheim.png, id=345, 211.54031pt x 31.61812pt>
 File: Bilder/memmap-vor-geheim.png Graphic file (type png)
 <use Bilder/memmap-vor-geheim.png>
 Package pdftex.def Info: Bilder/memmap-vor-geheim.png  used on input line 705.
 (pdftex.def)             Requested size: 350.16122pt x 52.33888pt.
-<Bilder/memmap-aufruf-geheim.png, id=348, 213.04594pt x 42.1575pt>
+<Bilder/memmap-aufruf-geheim.png, id=346, 213.04594pt x 42.1575pt>
 File: Bilder/memmap-aufruf-geheim.png Graphic file (type png)
 <use Bilder/memmap-aufruf-geheim.png>
 Package pdftex.def Info: Bilder/memmap-aufruf-geheim.png  used on input line 710.
 (pdftex.def)             Requested size: 350.16122pt x 69.29439pt.
-<Bilder/memmap-vor-verlassen.png, id=349, 213.04594pt x 57.21375pt>
+<Bilder/memmap-vor-verlassen.png, id=347, 213.04594pt x 57.21375pt>
 File: Bilder/memmap-vor-verlassen.png Graphic file (type png)
 <use Bilder/memmap-vor-verlassen.png>
 Package pdftex.def Info: Bilder/memmap-vor-verlassen.png  used on input line 715.
 (pdftex.def)             Requested size: 350.16122pt x 94.04239pt.
-<Bilder/memmap-nach-verlassen.png, id=350, 213.79875pt x 33.87656pt>
+<Bilder/memmap-nach-verlassen.png, id=348, 213.79875pt x 33.87656pt>
 File: Bilder/memmap-nach-verlassen.png Graphic file (type png)
 <use Bilder/memmap-nach-verlassen.png>
 Package pdftex.def Info: Bilder/memmap-nach-verlassen.png  used on input line 720.
@@ -2234,7 +2239,7 @@ Class scrartcl Warning: deprecated old font command `\sf' used.
 (scrartcl)              `\sf' yourself you should replace it, e.g., by
 (scrartcl)              `\normalfont \sffamily ' on input line 726.
 
-<Bilder/snippets-ggt.png, id=351, 142.28156pt x 106.14656pt>
+<Bilder/snippets-ggt.png, id=349, 142.28156pt x 106.14656pt>
 File: Bilder/snippets-ggt.png Graphic file (type png)
 <use Bilder/snippets-ggt.png>
 Package pdftex.def Info: Bilder/snippets-ggt.png  used on input line 751.
@@ -2248,17 +2253,17 @@ Package rerunfilecheck Info: File `Prog.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28818 strings out of 474370
+ 28814 strings out of 474370
  542826 string characters out of 5740535
  2035754 words of memory out of 5000000
- 50447 multiletter control sequences out of 15000+600000
+ 50445 multiletter control sequences out of 15000+600000
  572490 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,10n,107p,10983b,2245s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,10n,107p,10987b,2245s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\suter\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti0800.pk> <C:\Users\suter\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.pk><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Users/suter/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on Prog.pdf (8 pages, 1031910 bytes).
+Output written on Prog.pdf (8 pages, 1031343 bytes).
 PDF statistics:
- 698 PDF objects out of 1000 (max. 8388607)
- 303 named destinations out of 1000 (max. 500000)
+ 696 PDF objects out of 1000 (max. 8388607)
+ 301 named destinations out of 1000 (max. 500000)
  573 words of extra memory for PDF output out of 10000 (max. 10000000)
 

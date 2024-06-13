@@ -11,7 +11,7 @@
 			\verb|mv "Name alt" "Name neu"| & Datei umbenennen \\
 			\verb|cp "Datei alt" "Datei neu"| & Datei kopieren und benennen \\
 			\verb|clang -Wall -o "Outputname" "Inputdatei"| & clang-Compiler mit Warnungen \\
-			\verb|clang -Wall -o "Outputname" "Inputdatei" -lm| & -lm für Mathebibliothek \\
+			\verb|clang -Wall -o "Outputname" "Inputdatei" -lm| & -lm für Mathebibliothek ($<$math.h$>$ für sqrt)\\
 			\verb|ls| & Listet alle Files im akt. Verzeichnis auf \\
 			\verb|ls -l| & Inkl. Informationen wie Grösse u.a. \\
 			\verb|ls -a| & Inkl. versteckten Dateien \\
@@ -52,9 +52,9 @@
 				0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 \\
 				0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & A & B & C & D & E & F \\
 			\end{tabular}
-			
-		\paragraph{ASCII (7-Bit)}
-			
+		\\
+		\\
+		\textbf{ASCII (7-Bit)} American Standard Code for Information Interchange\\
 			Ordnet gängigen Schriftzeichen einen Zahlenwert zu, um diese in einem Digitalrechner präsentieren zu können.
 			Die Tabelle ist wichtig, um für geg. Schriftzeichen den in der Maschine repräsentierten Zahlenwert zu ermitteln (und umgekehrt).
 
@@ -66,10 +66,10 @@
 				\textit{Typ} & \textit{Anz. Bytes} & \textit{Bereich} & \textit{printf} & \textit{Spezielles} \\
 				\hline
 				\textbf{Ganze Zahlen} & & & & \\
-				byte & 1  & 0 ... +255 & & \\
-				short & 2 & $-2^{15} ... +2^{15}-1$ & \verb|%d; %i| & Hex: \verb|%x; %X| \\
-				int & 4 & $-2^{31} ... +2^{31}-1$ & \verb|%d| & Hex: \verb|%x; %X| \\
-				long & 8  & $-2^{63} ... +2^{63}-1$ & \verb|%ld; %li| & Hex: \verb|%x; %X| \\
+				byte & min. 1  & 0 ... +255 & & \\
+				short & min. 2 & $-2^{15} ... +2^{15}-1$ & \verb|%d; %i| & Hex: \verb|%x; %X| \\
+				int & min. 4 & $-2^{31} ... +2^{31}-1$ & \verb|%d| & Hex: \verb|%x; %X| \\
+				long & min. 8  & $-2^{63} ... +2^{63}-1$ & \verb|%ld; %li| & Hex: \verb|%x; %X| \\
 				\hline
 				\textbf{Dezimalzahlen} & & & (Expon.: \verb|%e|) & \\
 				float  & 4  & $1.2E-38$ ... $3.4E+38$ & \verb|%f| & 6 Dez.stellen \\ %6 dez
@@ -332,7 +332,7 @@ int a4[] = {12, 3, 2};      //Groesse anhand der Anz. Elemente => "[3]"
 			\begin{lstlisting}[language=C]
 int main() {
 	int arr[] = {4, 3, 2, 1};
-	printf("arr hat %lu Elemente\n", sizeof(arr)/siezof(arr[0]));
+	printf("arr hat %lu Elemente\n", sizeof(arr)/sizeof(arr[0]));
 	return 0;
 }
 			\end{lstlisting}
@@ -581,7 +581,7 @@ int main(){
 			Diese drei Bestandteile werden im Computer separat im Speicher binär dargestellt, gem. Standard IEEE 754.
 			In C gibt es hierfür die Datentypen \verb|float| und \verb|double|.
 
-			\textbf{Vorteil:} sehr grosser Wertebereich von $-\infty$ bis $\infty$\\
+			\textbf{Vorteil:} sehr grosser Wertebereich von $-\infty$ bis $\infty$, $\pm 0$, NaN (Not a number)\\
 			\textbf{Nachteil:} Rundungsfehler treten zwangsläufig auf und sind sehr schwer abschätzbar.
 			Sie sollten daher nie auf Gleichheit geprüft werden!
 		
